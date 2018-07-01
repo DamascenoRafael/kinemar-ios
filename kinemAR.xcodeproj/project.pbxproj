@@ -49,6 +49,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7111C17320E8BD0700C8E3C1 /* History */ = {
+			isa = PBXGroup;
+			children = (
+				7111C17420E8BD1E00C8E3C1 /* Custom cells */,
+				7134E3D820E32EA700DA271C /* HistoryTableViewController.swift */,
+			);
+			path = History;
+			sourceTree = "<group>";
+		};
+		7111C17420E8BD1E00C8E3C1 /* Custom cells */ = {
+			isa = PBXGroup;
+			children = (
+				7134E3D720E32EA700DA271C /* MovieCell.swift */,
+			);
+			path = "Custom cells";
+			sourceTree = "<group>";
+		};
 		71254C3620E700DB009F4518 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
@@ -84,29 +101,28 @@
 		71AB634620D0A33600C48060 /* kinemAR */ = {
 			isa = PBXGroup;
 			children = (
-				71AB634720D0A33600C48060 /* AppDelegate.swift */,
-				71AB634B20D0A33600C48060 /* ARViewController.swift */,
-				71AB635D20D0A71E00C48060 /* ARViewController+ARSessionDelegate.swift */,
 				71254C3620E700DB009F4518 /* Extension */,
 				7142358E20DAADDC00385E7C /* Model */,
-				71AB635F20D0A76F00C48060 /* Additional View Controllers */,
-				71AB635B20D0A3F200C48060 /* Main.storyboard */,
+				71AB635F20D0A76F00C48060 /* AR */,
+				7111C17320E8BD0700C8E3C1 /* History */,
+				71AB634720D0A33600C48060 /* AppDelegate.swift */,
 				71AB634920D0A33600C48060 /* art.scnassets */,
 				7184A64B20D0D315008F1F6B /* Assets.xcassets */,
+				71AB635B20D0A3F200C48060 /* Main.storyboard */,
 				71AB635220D0A33700C48060 /* LaunchScreen.storyboard */,
 				71AB635520D0A33700C48060 /* Info.plist */,
 			);
 			path = kinemAR;
 			sourceTree = "<group>";
 		};
-		71AB635F20D0A76F00C48060 /* Additional View Controllers */ = {
+		71AB635F20D0A76F00C48060 /* AR */ = {
 			isa = PBXGroup;
 			children = (
-				7134E3D820E32EA700DA271C /* HistoryTableViewController.swift */,
-				7134E3D720E32EA700DA271C /* MovieCell.swift */,
+				71AB634B20D0A33600C48060 /* ARViewController.swift */,
+				71AB635D20D0A71E00C48060 /* ARViewController+ARSessionDelegate.swift */,
 				71AB636020D0A76F00C48060 /* StatusViewController.swift */,
 			);
-			path = "Additional View Controllers";
+			path = AR;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

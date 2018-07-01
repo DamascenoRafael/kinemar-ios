@@ -1,0 +1,45 @@
+[
+    {
+        "website": "http://movies.disney.com/the-incredibles-2", 
+        "originalTitle": "The Incredibles 2", 
+        "movieOutline": "A fam\u00edlia de her\u00f3is preferida est\u00e1 de volta em \u2018Os Incr\u00edveis 2\u2019. Dessa vez, Helena \u00e9 quem assume os holofotes, deixando Roberto em casa com Violeta e Flecha para conduzir o heroico dia-a-dia de uma vida \u201cnormal\u201d. \u00c9 uma transi\u00e7\u00e3o dif\u00edcil para todos, que se complica ainda mais tendo em vista que a fam\u00edlia ainda n\u00e3o sabe dos superpoderes do beb\u00ea Zez\u00e9. Quando um novo super vil\u00e3o tra\u00e7a um plano perigoso e brilhante, a fam\u00edlia e o Gelado precisar\u00e3o encontrar um jeito de trabalhar juntos novamente \u2013 o que \u00e9 mais f\u00e1cil de dizer do que de colocar em pr\u00e1tica, mesmo todos eles sendo realmente incr\u00edveis.\n\n", 
+        "language": "English", 
+        "title": "Os Incr\u00edveis 2", 
+        "countryOfOrigin": "EUA", 
+        "imdbID": "tt3606756", 
+        "writer": "Brad Bird", 
+        "contentRating": "10", 
+        "director": "Brad Bird", 
+        "ratings": [
+            {
+                "source": "IMDb",
+                "value": "8.4/10"
+            }, 
+            {
+                "source": "Rotten Tomatoes",
+                "value": "94%"
+            }, 
+            {
+                "source": "Metacritic",
+                "value": "80/100"
+            }
+        ], 
+        "production": "Disney/Pixar", 
+        "actors": "Craig T. Nelson, Holly Hunter, Sarah Vowell, Huck Milner", 
+        "year": "2018", 
+        "genre": "Animation, Action, Adventure", 
+        "ticket": "https://www.ingresso.com/rio-de-janeiro/home/filmes/os-incriveis-2", 
+        "runtime": "118 min", 
+        "trailer": "http://www.youtube.com/embed/B4qVrpIBWq0"
+    }, 
+    {
+        "originalTitle": "Au revoir l\u00e0-haut", 
+        "movieOutline": "Em novembro de 1918, alguns dias antes do Armist\u00edcio, \u00c9douard P\u00e9ricourt salva a vida de Albert Maillard. Ambos n\u00e3o t\u00eam nada em comum, a n\u00e3o ser a guerra, e s\u00e3o obrigados a se unir para sobreviver. Anos depois, Albert e \u00c9douard decidem montar uma fraude nos monumentos aos mortos. Tamb\u00e9m planejam uma farsa para desmascarar o Tenente Pradelle, que tenta fazer fortuna com corpos das v\u00edtimas da guerra.", 
+        "title": "Nos vemos no para\u00edso", 
+        "countryOfOrigin": "Fran\u00e7a", 
+        "contentRating": "Consulte a classifica\u00e7\u00e3o", 
+        "director": "Albert Dupontel", 
+        "ticket": "https://www.ingresso.com/rio-de-janeiro/home/filmes/nos-vemos-no-paraiso", 
+        "trailer": null
+    }
+]

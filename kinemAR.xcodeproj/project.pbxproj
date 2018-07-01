@@ -19,6 +19,7 @@
 		71AB635C20D0A3F200C48060 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71AB635B20D0A3F200C48060 /* Main.storyboard */; };
 		71AB635E20D0A71E00C48060 /* ARViewController+ARSessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71AB635D20D0A71E00C48060 /* ARViewController+ARSessionDelegate.swift */; };
 		71AB636120D0A76F00C48060 /* StatusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71AB636020D0A76F00C48060 /* StatusViewController.swift */; };
+		71B2814820E949A0005F7816 /* AppDelegate+Realm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B2814720E949A0005F7816 /* AppDelegate+Realm.swift */; };
 		A373693311C8C743B4141947 /* Pods_kinemAR.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D99CA7A0DE2DA7B9DC4B696 /* Pods_kinemAR.framework */; };
 /* End PBXBuildFile section */
 
@@ -37,6 +38,7 @@
 		71AB635B20D0A3F200C48060 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		71AB635D20D0A71E00C48060 /* ARViewController+ARSessionDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ARViewController+ARSessionDelegate.swift"; sourceTree = "<group>"; };
 		71AB636020D0A76F00C48060 /* StatusViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatusViewController.swift; sourceTree = "<group>"; };
+		71B2814720E949A0005F7816 /* AppDelegate+Realm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AppDelegate+Realm.swift"; sourceTree = "<group>"; };
 		800675C4A8ED51F4B55DB4C3 /* Pods-kinemAR.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kinemAR.debug.xcconfig"; path = "Pods/Target Support Files/Pods-kinemAR/Pods-kinemAR.debug.xcconfig"; sourceTree = "<group>"; };
 		8D99CA7A0DE2DA7B9DC4B696 /* Pods_kinemAR.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_kinemAR.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5A71873A598198FA85C3AB8 /* Pods-kinemAR.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kinemAR.release.xcconfig"; path = "Pods/Target Support Files/Pods-kinemAR/Pods-kinemAR.release.xcconfig"; sourceTree = "<group>"; };
@@ -113,6 +115,7 @@
 				71AB635F20D0A76F00C48060 /* AR */,
 				7111C17320E8BD0700C8E3C1 /* History */,
 				71AB634720D0A33600C48060 /* AppDelegate.swift */,
+				71B2814720E949A0005F7816 /* AppDelegate+Realm.swift */,
 				71AB634920D0A33600C48060 /* art.scnassets */,
 				7184A64B20D0D315008F1F6B /* Assets.xcassets */,
 				71AB635B20D0A3F200C48060 /* Main.storyboard */,
@@ -268,6 +271,7 @@
 				71AB636120D0A76F00C48060 /* StatusViewController.swift in Sources */,
 				71AB635E20D0A71E00C48060 /* ARViewController+ARSessionDelegate.swift in Sources */,
 				7134E3D920E32EA700DA271C /* MovieCell.swift in Sources */,
+				71B2814820E949A0005F7816 /* AppDelegate+Realm.swift in Sources */,
 				71254C3820E719EB009F4518 /* SCNNode+switchPosition.swift in Sources */,
 				71AB634C20D0A33600C48060 /* ARViewController.swift in Sources */,
 				7134E3DA20E32EA700DA271C /* HistoryTableViewController.swift in Sources */,

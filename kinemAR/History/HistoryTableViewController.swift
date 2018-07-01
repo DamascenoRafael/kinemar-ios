@@ -16,8 +16,6 @@ class HistoryTableViewController: UITableViewController {
 
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "movieCell", for: indexPath) as! MovieCell
-        
-        cell.posterImage.image = UIImage(named: "incriveis")
 
         // Configure the cell...
 

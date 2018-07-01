@@ -248,8 +248,10 @@
                                 </tableViewCellContentView>
                                 <connections>
                                     <outlet property="dateLabel" destination="f6i-eF-krC" id="oYH-Yn-xXN"/>
-                                    <outlet property="movieLabel" destination="4u9-wH-5IJ" id="YsQ-gv-B5V"/>
-                                    <outlet property="posterImage" destination="HcA-Eb-hD3" id="K0Z-ji-djL"/>
+                                    <outlet property="infoLabel" destination="8Gy-RJ-Dab" id="Hs5-hc-kOF"/>
+                                    <outlet property="locationLabel" destination="sbr-Wx-3ov" id="9OB-zu-hBY"/>
+                                    <outlet property="posterImageView" destination="HcA-Eb-hD3" id="K0Z-ji-djL"/>
+                                    <outlet property="titleLabel" destination="4u9-wH-5IJ" id="YsQ-gv-B5V"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>

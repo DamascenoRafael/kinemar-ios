@@ -112,6 +112,8 @@ class ARViewController: UIViewController, ARSCNViewDelegate {
         
         updateQueue.async {
             
+            node.name = referenceImage.name
+            
             let playButton = self.playButtonNode
             
             let ticket = self.ticketNode
@@ -196,9 +198,7 @@ class ARViewController: UIViewController, ARSCNViewDelegate {
     
     lazy var popcornNode: SCNNode = {
         guard let scene = SCNScene(named: "art.scnassets/popcorn/popcorn.scn"),
-            let node = scene.rootNode.childNode(withName: "popcorn", recursively: false) else {
-                NSLog("#### OH SHIT!")
-                return SCNNode() }
+            let node = scene.rootNode.childNode(withName: "popcorn", recursively: false) else { return SCNNode() }
         
         let scaleFactor  = 0.02
         node.scale = SCNVector3(scaleFactor, scaleFactor, scaleFactor)
@@ -215,16 +215,15 @@ class ARViewController: UIViewController, ARSCNViewDelegate {
         let hits = self.sceneView.hitTest(location, options: nil)
         
         guard gesture.state == .ended,
-            let tappedNode = hits.first?.node else {
+            let tappedNode = hits.first?.node,
+            let movieTitle = tappedNode.parent?.parent?.name else {
                 return
         }
         
-        NSLog("Node tapped: " + tappedNode.name!)
+        NSLog("Movie: \(movieTitle). Node tapped: \(tappedNode.name!)")
         switch tappedNode.name {
         case "playButton":
             NSLog("## play video")
-            let url = URL(string: "youtube://AKEoT7NQNiU")!
-            UIApplication.shared.open(url, options: [:], completionHandler: nil)
         case "ticketButton":
             NSLog("## buy ticket")
         default:

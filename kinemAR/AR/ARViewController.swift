@@ -112,6 +112,8 @@ class ARViewController: UIViewController, ARSCNViewDelegate {
         updateQueue.async {
             
             node.name = referenceImage.name
+            let textNode = self.createTextNode(string: "99%")
+            node.addChildNode(textNode)
             
             let playButton = self.playButtonNode
             
@@ -163,6 +165,31 @@ class ARViewController: UIViewController, ARSCNViewDelegate {
     
     
     // MARK: Scene nodes
+    
+    func createTextNode(string: String) -> SCNNode {
+        let text = SCNText(string: string, extrusionDepth: 0.1)
+        text.font = UIFont.systemFont(ofSize: 1.0)
+        text.flatness = 0.005
+        text.firstMaterial?.diffuse.contents = UIColor.white
+        
+        let textNode = SCNNode(geometry: text)
+        
+        let fontSize = Float(0.025)
+        textNode.scale = SCNVector3(fontSize, fontSize, fontSize)
+        
+        let (min, max) = text.boundingBox
+        let dx = min.x + 0.5 * (max.x - min.x)
+        let dy = min.y + 0.5 * (max.y - min.y)
+        let dz = min.z + 0.5 * (max.z - min.z)
+        textNode.pivot = SCNMatrix4MakeTranslation(dx, dy, dz)
+        
+        textNode.eulerAngles.x = -.pi / 2
+        
+        textNode.position = SCNVector3Zero
+        textNode.position.y = planeGap
+        
+        return textNode
+    }
     
     lazy var ticketNode: SCNNode = {
         guard let scene = SCNScene(named: "art.scnassets/ticket/ticket.scn"),

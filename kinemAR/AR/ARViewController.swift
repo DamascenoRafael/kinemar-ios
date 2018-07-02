@@ -227,10 +227,28 @@ class ARViewController: UIViewController, ARSCNViewDelegate {
             MovieService.instance.getMovie(withTitle: movieTitle) { movie in
                 KinemarYoutubePlayer.instance.present(videoIdentifier: movie.trailer!)
             }
-        case "ticketButton":
+        case "ticket":
             NSLog("## buy ticket")
+            MovieService.instance.getMovie(withTitle: movieTitle) { movie in
+                let deepLinkString = String(format: "ingressocinema://showtime/movie/%@", movie.movieId!)
+                if let deepLinkUrl = URL(string: deepLinkString), UIApplication.shared.canOpenURL(deepLinkUrl) {
+                    UIApplication.shared.open(deepLinkUrl, options: [:], completionHandler: nil)
+                } else {
+                    self.performSegue(withIdentifier: "showTicketPurchase", sender: movie.ticket!)
+                }
+            }
         default:
             NSLog("Action not registered for node")
+        }
+    }
+    
+    
+    // MARK: - Navigation
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if let navVC = segue.destination as? UINavigationController,
+            let webVC = navVC.viewControllers.first as? WebViewController {
+            webVC.ticketURLString = sender as? String
         }
     }
 }

@@ -24,6 +24,7 @@
 		71B2814A20E949A9005F7816 /* KinemarConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B2814920E949A9005F7816 /* KinemarConstants.swift */; };
 		71B2814D20E94A6C005F7816 /* MovieService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B2814C20E94A6C005F7816 /* MovieService.swift */; };
 		71B8079B20E9C74300ECA473 /* movies.json in Resources */ = {isa = PBXBuildFile; fileRef = 71B8079A20E9C74300ECA473 /* movies.json */; };
+		71C7480820E9E744002A54BF /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71C7480720E9E744002A54BF /* WebViewController.swift */; };
 		A373693311C8C743B4141947 /* Pods_kinemAR.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D99CA7A0DE2DA7B9DC4B696 /* Pods_kinemAR.framework */; };
 /* End PBXBuildFile section */
 
@@ -47,6 +48,7 @@
 		71B2814920E949A9005F7816 /* KinemarConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KinemarConstants.swift; sourceTree = "<group>"; };
 		71B2814C20E94A6C005F7816 /* MovieService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieService.swift; sourceTree = "<group>"; };
 		71B8079A20E9C74300ECA473 /* movies.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = movies.json; sourceTree = "<group>"; };
+		71C7480720E9E744002A54BF /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 		800675C4A8ED51F4B55DB4C3 /* Pods-kinemAR.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kinemAR.debug.xcconfig"; path = "Pods/Target Support Files/Pods-kinemAR/Pods-kinemAR.debug.xcconfig"; sourceTree = "<group>"; };
 		8D99CA7A0DE2DA7B9DC4B696 /* Pods_kinemAR.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_kinemAR.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5A71873A598198FA85C3AB8 /* Pods-kinemAR.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kinemAR.release.xcconfig"; path = "Pods/Target Support Files/Pods-kinemAR/Pods-kinemAR.release.xcconfig"; sourceTree = "<group>"; };
@@ -135,6 +137,7 @@
 				71AB634720D0A33600C48060 /* AppDelegate.swift */,
 				71B2814720E949A0005F7816 /* AppDelegate+Realm.swift */,
 				71B2814920E949A9005F7816 /* KinemarConstants.swift */,
+				71C7480720E9E744002A54BF /* WebViewController.swift */,
 				71B8079A20E9C74300ECA473 /* movies.json */,
 				71AB634920D0A33600C48060 /* art.scnassets */,
 				7184A64B20D0D315008F1F6B /* Assets.xcassets */,
@@ -310,6 +313,7 @@
 				717EDDB720E9A8C300422DE3 /* KinemarYoutubePlayer.swift in Sources */,
 				71AB634820D0A33600C48060 /* AppDelegate.swift in Sources */,
 				7142359020DAADDC00385E7C /* Movie.swift in Sources */,
+				71C7480820E9E744002A54BF /* WebViewController.swift in Sources */,
 				71B2814D20E94A6C005F7816 /* MovieService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

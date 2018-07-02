@@ -191,6 +191,36 @@ class ARViewController: UIViewController, ARSCNViewDelegate {
         return textNode
     }
     
+    lazy var infoNode: SCNNode = {
+        guard let scene = SCNScene(named: "art.scnassets/info/info.scn"),
+            let node = scene.rootNode.childNode(withName: "info", recursively: false) else { return SCNNode() }
+        
+        let scaleFactor  = 0.01
+        node.scale = SCNVector3(scaleFactor, scaleFactor, scaleFactor)
+        node.position.y = planeGap
+        return node
+    }()
+    
+    lazy var imdbNode: SCNNode = {
+        guard let scene = SCNScene(named: "art.scnassets/imdb/imdb.scn"),
+            let node = scene.rootNode.childNode(withName: "imdb", recursively: false) else { return SCNNode() }
+        
+        let scaleFactor  = 0.015
+        node.scale = SCNVector3(scaleFactor, scaleFactor, scaleFactor)
+        node.position.y = planeGap
+        return node
+    }()
+    
+    lazy var metacriticNode: SCNNode = {
+        guard let scene = SCNScene(named: "art.scnassets/metacritic/metacritic.scn"),
+            let node = scene.rootNode.childNode(withName: "metacritic", recursively: false) else { return SCNNode() }
+        
+        let scaleFactor  = 0.0035
+        node.scale = SCNVector3(scaleFactor, scaleFactor, scaleFactor)
+        node.position.y = planeGap
+        return node
+    }()
+    
     lazy var ticketNode: SCNNode = {
         guard let scene = SCNScene(named: "art.scnassets/ticket/ticket.scn"),
             let node = scene.rootNode.childNode(withName: "ticket", recursively: false) else { return SCNNode() }
@@ -222,9 +252,29 @@ class ARViewController: UIViewController, ARSCNViewDelegate {
         return node
     }()
     
+    lazy var badTomatoNode: SCNNode = {
+        guard let scene = SCNScene(named: "art.scnassets/tomato/badTomato.scn"),
+            let node = scene.rootNode.childNode(withName: "badTomato", recursively: false) else { return SCNNode() }
+        
+        let scaleFactor  = 0.015
+        node.scale = SCNVector3(scaleFactor, scaleFactor, scaleFactor)
+        node.position.y = planeGap
+        return node
+    }()
+    
     lazy var popcornNode: SCNNode = {
         guard let scene = SCNScene(named: "art.scnassets/popcorn/popcorn.scn"),
             let node = scene.rootNode.childNode(withName: "popcorn", recursively: false) else { return SCNNode() }
+        
+        let scaleFactor  = 0.02
+        node.scale = SCNVector3(scaleFactor, scaleFactor, scaleFactor)
+        node.position.y = planeGap
+        return node
+    }()
+    
+    lazy var badPopcornNode: SCNNode = {
+        guard let scene = SCNScene(named: "art.scnassets/popcorn/badPopcorn.scn"),
+            let node = scene.rootNode.childNode(withName: "badPopcorn", recursively: false) else { return SCNNode() }
         
         let scaleFactor  = 0.02
         node.scale = SCNVector3(scaleFactor, scaleFactor, scaleFactor)

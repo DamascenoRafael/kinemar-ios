@@ -4,8 +4,8 @@
   <contributor>
    <authoring_tool>SceneKit Collada Exporter v1.0</authoring_tool>
   </contributor>
-  <created>2018-06-27T03:46:51Z</created>
-  <modified>2018-06-27T03:46:51Z</modified>
+  <created>2018-07-02T21:08:34Z</created>
+  <modified>2018-07-02T21:08:34Z</modified>
   <unit meter="1.000000"/>
   <up_axis>Y_UP</up_axis>
  </asset>
@@ -188,7 +188,7 @@
     <instance_light url="#Lamp-light"/>
    </node>
    <node id="Plane" name="popcorn">
-    <matrix>1 0 -0 0 0 5.960464e-08 0.9999999 0 0 -0.9999999 5.960464e-08 0 0 0 0 1 </matrix>
+    <matrix>1 -0 0 0 0 5.960464e-08 0.9999998 0 -0 -0.9999998 5.960464e-08 0 0 0 0 1 </matrix>
     <instance_geometry url="#geometry1">
      <bind_material>
       <technique_common>

@@ -14,6 +14,7 @@ class Rating: Object, Decodable {
 
 class Movie: Object, Decodable {
     @objc dynamic var movieId: String?
+    @objc dynamic var ingressoId: String?
     @objc dynamic var title: String?
     @objc dynamic var originalTitle: String?
     @objc dynamic var movieOutline: String?
@@ -29,9 +30,11 @@ class Movie: Object, Decodable {
     @objc dynamic var language: String?
     @objc dynamic var runtime: String?
     @objc dynamic var imdbID: String?
-    @objc dynamic var year: String?
+    @objc dynamic var premiereYear: String?
+    @objc dynamic var premiereDate: String?
     @objc dynamic var trailer: String?
-    var ratings = List<Rating>()
+    var ratings = [Rating]()
+    var isPlaying: Bool?
     
     override static func primaryKey() -> String? {
         return "movieId"
@@ -39,6 +42,7 @@ class Movie: Object, Decodable {
     
     private enum MovieCodingKeys: String, CodingKey {
         case movieId
+        case ingressoId
         case title
         case originalTitle
         case movieOutline
@@ -54,9 +58,11 @@ class Movie: Object, Decodable {
         case language
         case runtime
         case imdbID
-        case year
+        case premiereYear
+        case premiereDate
         case trailer
         case ratings
+        case isPlaying
     }
     
     convenience required init(from decoder: Decoder) throws {
@@ -64,6 +70,7 @@ class Movie: Object, Decodable {
         let container       = try decoder.container(keyedBy: MovieCodingKeys.self)
         title               = try container.decode(String.self, forKey: .title)
         movieId             = String(title!.hashValue)
+        ingressoId          = try container.decode(String.self, forKey: .ingressoId)
         originalTitle       = try container.decode(String.self, forKey: .originalTitle)
         movieOutline        = try container.decode(String.self, forKey: .movieOutline)
         director            = try container.decode(String.self, forKey: .director)
@@ -78,10 +85,18 @@ class Movie: Object, Decodable {
         language            = try container.decodeIfPresent(String.self, forKey: .language)
         runtime             = try container.decodeIfPresent(String.self, forKey: .runtime)
         imdbID              = try container.decodeIfPresent(String.self, forKey: .imdbID)
-        year                = try container.decodeIfPresent(String.self, forKey: .year)
+        premiereYear        = try container.decodeIfPresent(String.self, forKey: .premiereYear)
+        premiereDate        = try container.decodeIfPresent(String.self, forKey: .premiereDate)
         trailer             = try container.decodeIfPresent(String.self, forKey: .trailer)
+        ratings             = try container.decodeIfPresent([Rating].self, forKey: .ratings) ?? [Rating]()
+    }
+    
+    func rating(from source: RatingSource) -> String? {
+        guard let rating = ratings.first(where: { $0.source == source.rawValue }),
+            let value = rating.value else {
+            return nil
+        }
         
-        let ratingsJson     = try container.decodeIfPresent([Rating].self, forKey: .ratings) ?? [Rating]()
-        ratings.append(objectsIn: ratingsJson)
+        return value
     }
 }

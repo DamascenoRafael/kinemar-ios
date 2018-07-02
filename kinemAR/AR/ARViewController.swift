@@ -229,7 +229,7 @@ class ARViewController: UIViewController, ARSCNViewDelegate {
         case "ticket":
             NSLog("## buy ticket")
             MovieService.instance.getMovie(movieTitle) { movie in
-                guard KinemarTicketPurchase.instance.openDeepLinkIfAvailable(movieId: movie.movieId!) else {
+                guard KinemarTicketPurchase.instance.openDeepLinkIfAvailable(ingressoId: movie.ingressoId!) else {
                     self.performSegue(withIdentifier: "showTicketPurchase", sender: movie.ticket!)
                     return
                 }

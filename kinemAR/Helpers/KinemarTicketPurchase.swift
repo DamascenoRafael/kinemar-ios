@@ -7,8 +7,8 @@ class KinemarTicketPurchase {
         // This prevents others from using the default '()' initializer for this class.
     }
     
-    func openDeepLinkIfAvailable(movieId: String) -> Bool {
-        let deepLinkString = String(format: "ingressocinema://showtime/movie/%@", movieId)
+    func openDeepLinkIfAvailable(ingressoId: String) -> Bool {
+        let deepLinkString = String(format: "ingressocinema://showtime/movie/%@", ingressoId)
         if let deepLinkUrl = URL(string: deepLinkString), UIApplication.shared.canOpenURL(deepLinkUrl) {
             UIApplication.shared.open(deepLinkUrl, options: [:], completionHandler: nil)
             return true

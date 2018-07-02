@@ -1,0 +1,16 @@
+{
+  "images": [
+    {
+      "idiom": "universal", 
+      "filename": "P\u00e9 Pequeno.jpg"
+    }
+  ], 
+  "info": {
+    "version": 1, 
+    "author": "xcode"
+  }, 
+  "properties": {
+    "width": 69, 
+    "unit": "centimeters"
+  }
+}

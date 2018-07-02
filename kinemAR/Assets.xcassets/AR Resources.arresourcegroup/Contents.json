@@ -1,14 +1,248 @@
 {
-  "info" : {
-    "version" : 1,
-    "author" : "xcode"
-  },
-  "resources" : [
+  "info": {
+    "version": 1, 
+    "author": "xcode"
+  }, 
+  "resources": [
     {
-      "filename" : "Pantera Negra.arreferenceimage"
-    },
+      "filename": "O nome da morte.arreferenceimage"
+    }, 
     {
-      "filename" : "Vingadores.arreferenceimage"
+      "filename": "Desobedi\u00eancia.arreferenceimage"
+    }, 
+    {
+      "filename": "Al\u00e9m do Homem.arreferenceimage"
+    }, 
+    {
+      "filename": "Arranha-C\u00e9u: Coragem sem Limite.arreferenceimage"
+    }, 
+    {
+      "filename": "Bravas Donnas.arreferenceimage"
+    }, 
+    {
+      "filename": "Nos vemos no para\u00edso.arreferenceimage"
+    }, 
+    {
+      "filename": "Mentes Sombrias.arreferenceimage"
+    }, 
+    {
+      "filename": "A Primeira Noite de Crime.arreferenceimage"
+    }, 
+    {
+      "filename": "Christopher Robin \u2013 Um Reencontro Inesquec\u00edvel.arreferenceimage"
+    }, 
+    {
+      "filename": "O amante duplo.arreferenceimage"
+    }, 
+    {
+      "filename": "No intenso agora.arreferenceimage"
+    }, 
+    {
+      "filename": "Mogli: O Livro da Selva.arreferenceimage"
+    }, 
+    {
+      "filename": "N\u00e3o se aceitam devolu\u00e7\u00f5es.arreferenceimage"
+    }, 
+    {
+      "filename": "A Freira.arreferenceimage"
+    }, 
+    {
+      "filename": "Copa do Mundo da FIFA R\u00fassia 2018.arreferenceimage"
+    }, 
+    {
+      "filename": "A palavra.arreferenceimage"
+    }, 
+    {
+      "filename": "Han Solo: Uma Hist\u00f3ria Star Wars.arreferenceimage"
+    }, 
+    {
+      "filename": "Miss\u00e3o Imposs\u00edvel - Efeito Fallout.arreferenceimage"
+    }, 
+    {
+      "filename": "As boas maneiras.arreferenceimage"
+    }, 
+    {
+      "filename": "Animais Fant\u00e1sticos: Os Crimes De Grindelwald.arreferenceimage"
+    }, 
+    {
+      "filename": "Cachorros.arreferenceimage"
+    }, 
+    {
+      "filename": "Hotel Transilv\u00e2nia 3: F\u00e9rias Monstruosas.arreferenceimage"
+    }, 
+    {
+      "filename": "Sexy Por Acidente.arreferenceimage"
+    }, 
+    {
+      "filename": "Homem-Formiga e a Vespa.arreferenceimage"
+    }, 
+    {
+      "filename": "Muse Drones World Tour.arreferenceimage"
+    }, 
+    {
+      "filename": "Slender Man: Pesadelo Sem Rosto.arreferenceimage"
+    }, 
+    {
+      "filename": "Em Guerra Por Amor.arreferenceimage"
+    }, 
+    {
+      "filename": "Os Jovens Tit\u00e3s em A\u00e7\u00e3o! Nos Cinemas.arreferenceimage"
+    }, 
+    {
+      "filename": "Tio Drew.arreferenceimage"
+    }, 
+    {
+      "filename": "Gnomeu e Julieta - O mist\u00e9rio do jardim.arreferenceimage"
+    }, 
+    {
+      "filename": "Entre-La\u00e7os.arreferenceimage"
+    }, 
+    {
+      "filename": "A Amante.arreferenceimage"
+    }, 
+    {
+      "filename": "Como \u00e9 cruel viver assim.arreferenceimage"
+    }, 
+    {
+      "filename": "Tungst\u00eanio.arreferenceimage"
+    }, 
+    {
+      "filename": "Sicario: dia do soldado.arreferenceimage"
+    }, 
+    {
+      "filename": "Paulo, Ap\u00f3stolo de Cristo.arreferenceimage"
+    }, 
+    {
+      "filename": "Oito Mulheres e Um Segredo.arreferenceimage"
+    }, 
+    {
+      "filename": "Trabalhar cansa.arreferenceimage"
+    }, 
+    {
+      "filename": "Auto de Resist\u00eancia.arreferenceimage"
+    }, 
+    {
+      "filename": "Alfa.arreferenceimage"
+    }, 
+    {
+      "filename": "Alguma coisa assim.arreferenceimage"
+    }, 
+    {
+      "filename": "1945.arreferenceimage"
+    }, 
+    {
+      "filename": "Baronesa.arreferenceimage"
+    }, 
+    {
+      "filename": "Dedo na ferida.arreferenceimage"
+    }, 
+    {
+      "filename": "Legalize j\u00e1!.arreferenceimage"
+    }, 
+    {
+      "filename": "Venom.arreferenceimage"
+    }, 
+    {
+      "filename": "Heredit\u00e1rio.arreferenceimage"
+    }, 
+    {
+      "filename": "Estrada De Sonhos.arreferenceimage"
+    }, 
+    {
+      "filename": "Alma da Festa.arreferenceimage"
+    }, 
+    {
+      "filename": "Touki Bouki, A Viagem Da Hiena.arreferenceimage"
+    }, 
+    {
+      "filename": "MegaTubar\u00e3o.arreferenceimage"
+    }, 
+    {
+      "filename": "R\u00fassia 2018 - Brasil X M\u00e9xico.arreferenceimage"
+    }, 
+    {
+      "filename": "Mamma Mia: L\u00e1 Vamos N\u00f3s de Novo!.arreferenceimage"
+    }, 
+    {
+      "filename": "Pra\u00e7a Paris.arreferenceimage"
+    }, 
+    {
+      "filename": "50 s\u00e3o os novos 30.arreferenceimage"
+    }, 
+    {
+      "filename": "Oh Lucy!.arreferenceimage"
+    }, 
+    {
+      "filename": "Meu Ex \u00e9 um Espi\u00e3o.arreferenceimage"
+    }, 
+    {
+      "filename": "Os Incr\u00edveis 2.arreferenceimage"
+    }, 
+    {
+      "filename": "O Grande Circo M\u00edstico.arreferenceimage"
+    }, 
+    {
+      "filename": "O Quebra-Nozes e os Quatro Reinos.arreferenceimage"
+    }, 
+    {
+      "filename": "Rei.arreferenceimage"
+    }, 
+    {
+      "filename": "Dovlatov.arreferenceimage"
+    }, 
+    {
+      "filename": "Jurassic World: Reino Amea\u00e7ado.arreferenceimage"
+    }, 
+    {
+      "filename": "Homem-aranha no Aranhaverso.arreferenceimage"
+    }, 
+    {
+      "filename": "Do jeito que elas querem.arreferenceimage"
+    }, 
+    {
+      "filename": "O Retorno de Mary Poppins.arreferenceimage"
+    }, 
+    {
+      "filename": "Johnny English 3.0.arreferenceimage"
+    }, 
+    {
+      "filename": "P\u00e9 Pequeno.arreferenceimage"
+    }, 
+    {
+      "filename": "Deadpool 2.arreferenceimage"
+    }, 
+    {
+      "filename": "Podres de Ricos.arreferenceimage"
+    }, 
+    {
+      "filename": "Garoto C\u00f3smico.arreferenceimage"
+    }, 
+    {
+      "filename": "Anna Karenina - A hist\u00f3ria de Vronsky.arreferenceimage"
+    }, 
+    {
+      "filename": "Vingadores: Guerra Infinita.arreferenceimage"
+    }, 
+    {
+      "filename": "Para\u00edso perdido.arreferenceimage"
+    }, 
+    {
+      "filename": "Os Novos Mutantes.arreferenceimage"
+    }, 
+    {
+      "filename": "Talvez uma Hist\u00f3ria de Amor.arreferenceimage"
+    }, 
+    {
+      "filename": "Berenice procura.arreferenceimage"
+    }, 
+    {
+      "filename": "WiFi Ralph.arreferenceimage"
+    }, 
+    {
+      "filename": "Severina.arreferenceimage"
+    }, 
+    {
+      "filename": "O processo.arreferenceimage"
     }
   ]
 }

@@ -74,7 +74,6 @@ class ARViewController: UIViewController, ARSCNViewDelegate {
     /// Creates a new AR configuration to run on the `session`.
     /// - Tag: ARReferenceImage-Loading
     func resetTracking() {
-        
         guard let referenceImages = ARReferenceImage.referenceImages(inGroupNamed: "AR Resources", bundle: nil) else {
             fatalError("Missing expected asset catalog resources.")
         }
@@ -224,17 +223,15 @@ class ARViewController: UIViewController, ARSCNViewDelegate {
         switch tappedNode.name {
         case "playButton":
             NSLog("## play video")
-            MovieService.instance.getMovie(withTitle: movieTitle) { movie in
+            MovieService.instance.getMovie(movieTitle) { movie in
                 KinemarYoutubePlayer.instance.present(videoIdentifier: movie.trailer!)
             }
         case "ticket":
             NSLog("## buy ticket")
-            MovieService.instance.getMovie(withTitle: movieTitle) { movie in
-                let deepLinkString = String(format: "ingressocinema://showtime/movie/%@", movie.movieId!)
-                if let deepLinkUrl = URL(string: deepLinkString), UIApplication.shared.canOpenURL(deepLinkUrl) {
-                    UIApplication.shared.open(deepLinkUrl, options: [:], completionHandler: nil)
-                } else {
+            MovieService.instance.getMovie(movieTitle) { movie in
+                guard KinemarTicketPurchase.instance.openDeepLinkIfAvailable(movieId: movie.movieId!) else {
                     self.performSegue(withIdentifier: "showTicketPurchase", sender: movie.ticket!)
+                    return
                 }
             }
         default:

@@ -59,7 +59,7 @@ class MovieService {
         }
     }
     
-    func getMovie(withTitle title: String, success: @escaping (_ movie: Movie) -> Void) {
+    func getMovie(_ title: String, success: @escaping (_ movie: Movie) -> Void) {
         do {
             let realm = try Realm()
             let hashString = String(title.hashValue)

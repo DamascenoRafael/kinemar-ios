@@ -11,6 +11,7 @@
 		7134E3D920E32EA700DA271C /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7134E3D720E32EA700DA271C /* MovieCell.swift */; };
 		7134E3DA20E32EA700DA271C /* HistoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7134E3D820E32EA700DA271C /* HistoryTableViewController.swift */; };
 		7142359020DAADDC00385E7C /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7142358F20DAADDC00385E7C /* Movie.swift */; };
+		714A4AA120EA987E005306A2 /* KinemarTicketPurchase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 714A4AA020EA987E005306A2 /* KinemarTicketPurchase.swift */; };
 		717EDDB720E9A8C300422DE3 /* KinemarYoutubePlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 717EDDB620E9A8C300422DE3 /* KinemarYoutubePlayer.swift */; };
 		7184A64C20D0D315008F1F6B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7184A64B20D0D315008F1F6B /* Assets.xcassets */; };
 		71AB634820D0A33600C48060 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71AB634720D0A33600C48060 /* AppDelegate.swift */; };
@@ -33,6 +34,7 @@
 		7134E3D720E32EA700DA271C /* MovieCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
 		7134E3D820E32EA700DA271C /* HistoryTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryTableViewController.swift; sourceTree = "<group>"; };
 		7142358F20DAADDC00385E7C /* Movie.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		714A4AA020EA987E005306A2 /* KinemarTicketPurchase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KinemarTicketPurchase.swift; sourceTree = "<group>"; };
 		717EDDB620E9A8C300422DE3 /* KinemarYoutubePlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KinemarYoutubePlayer.swift; sourceTree = "<group>"; };
 		7184A64B20D0D315008F1F6B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		71AB634420D0A33600C48060 /* kinemAR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kinemAR.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -87,6 +89,7 @@
 			isa = PBXGroup;
 			children = (
 				717EDDB620E9A8C300422DE3 /* KinemarYoutubePlayer.swift */,
+				714A4AA020EA987E005306A2 /* KinemarTicketPurchase.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -303,6 +306,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				71AB636120D0A76F00C48060 /* StatusViewController.swift in Sources */,
+				714A4AA120EA987E005306A2 /* KinemarTicketPurchase.swift in Sources */,
 				71AB635E20D0A71E00C48060 /* ARViewController+ARSessionDelegate.swift in Sources */,
 				7134E3D920E32EA700DA271C /* MovieCell.swift in Sources */,
 				71B2814820E949A0005F7816 /* AppDelegate+Realm.swift in Sources */,

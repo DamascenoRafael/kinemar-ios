@@ -319,7 +319,7 @@
         <!--Informações-->
         <scene sceneID="L0v-0F-7nj">
             <objects>
-                <viewController id="1ji-d9-YhP" sceneMemberID="viewController">
+                <viewController id="1ji-d9-YhP" customClass="MovieViewController" customModule="kinemAR" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="4PO-NG-HlQ">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -475,6 +475,9 @@
                                             </userDefinedRuntimeAttribute>
                                             <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
                                         </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="watchTrailer:" destination="1ji-d9-YhP" eventType="touchUpInside" id="POu-ty-xU3"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zyf-ON-Usk">
                                         <rect key="frame" x="182.5" y="0.0" width="172.5" height="35"/>
@@ -491,6 +494,9 @@
                                             </userDefinedRuntimeAttribute>
                                             <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
                                         </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="purchaseTickts:" destination="1ji-d9-YhP" eventType="touchUpInside" id="lkL-g4-1Sa"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <constraints>
@@ -562,6 +568,20 @@
                         <viewLayoutGuide key="safeArea" id="UjS-La-5ab"/>
                     </view>
                     <navigationItem key="navigationItem" title="Informações" id="PD8-au-EPB"/>
+                    <connections>
+                        <outlet property="actorsLabel" destination="Sv3-w2-tAv" id="wCI-73-8cM"/>
+                        <outlet property="directorLabel" destination="ObT-M7-PFX" id="EDa-vF-yem"/>
+                        <outlet property="imdbScoreLabel" destination="C4W-Qv-gku" id="Kag-if-wvl"/>
+                        <outlet property="infoLabel" destination="Saj-sA-93N" id="0pT-Vj-VBb"/>
+                        <outlet property="locationLabel" destination="rNa-14-4lt" id="SD5-2M-dbS"/>
+                        <outlet property="metacritcScoreLabel" destination="w4J-un-kcR" id="T1D-Sc-H3y"/>
+                        <outlet property="movieOutlineLabel" destination="hXu-9D-sP4" id="Elu-60-dR2"/>
+                        <outlet property="originalTitleLabel" destination="kBy-nJ-U1o" id="VAf-TQ-2bN"/>
+                        <outlet property="posterImageView" destination="GLQ-XV-9Lp" id="f1e-YX-VV6"/>
+                        <outlet property="rtAudienceLabel" destination="Ql2-nM-Nlw" id="6ZS-h4-Gg3"/>
+                        <outlet property="rtCriticsLabel" destination="XN1-9s-H4h" id="TVz-1r-mRa"/>
+                        <outlet property="titleLabel" destination="osd-Ui-iNu" id="IXy-eh-4M3"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="o63-BE-C44" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

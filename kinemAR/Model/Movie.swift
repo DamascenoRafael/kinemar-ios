@@ -2,7 +2,8 @@ import RealmSwift
 
 enum RatingSource: String {
     case imdb = "IMDb"
-    case rottenTomatoes = "Rotten Tomatoes"
+    case rottenTomatoesCritics = "Rotten Tomatoes Critics"
+    case rottenTomatoesAudience = "Rotten Tomatoes Audience"
     case metacritic = "Metacritic"
 }
 
@@ -12,6 +13,7 @@ class Rating: Object, Decodable {
 }
 
 class Movie: Object, Decodable {
+    @objc dynamic var movieId: String?
     @objc dynamic var title: String?
     @objc dynamic var originalTitle: String?
     @objc dynamic var movieOutline: String?
@@ -32,10 +34,11 @@ class Movie: Object, Decodable {
     var ratings = List<Rating>()
     
     override static func primaryKey() -> String? {
-        return "title"
+        return "movieId"
     }
     
     private enum MovieCodingKeys: String, CodingKey {
+        case movieId
         case title
         case originalTitle
         case movieOutline
@@ -60,6 +63,7 @@ class Movie: Object, Decodable {
         self.init()
         let container       = try decoder.container(keyedBy: MovieCodingKeys.self)
         title               = try container.decode(String.self, forKey: .title)
+        movieId             = String(title!.hashValue)
         originalTitle       = try container.decode(String.self, forKey: .originalTitle)
         movieOutline        = try container.decode(String.self, forKey: .movieOutline)
         director            = try container.decode(String.self, forKey: .director)

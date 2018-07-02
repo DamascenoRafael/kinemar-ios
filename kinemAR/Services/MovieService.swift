@@ -37,10 +37,9 @@ class MovieService {
     }
     
     func loadMoviesFileIfNeeded() {
-//        guard isNewMoviesFileHash(), let data = dataFromMoviesFile else {
-//            return
-//        }
-        let data = dataFromMoviesFile!
+        guard isNewMoviesFileHash(), let data = dataFromMoviesFile else {
+            return
+        }
         
         var movies = [Movie]()
         do {
@@ -57,6 +56,18 @@ class MovieService {
             }
         } catch {
             NSLog("Error creating movies: \(error.localizedDescription)")
+        }
+    }
+    
+    func getMovie(withTitle title: String, success: @escaping (_ movie: Movie) -> Void) {
+        do {
+            let realm = try Realm()
+            let hashString = String(title.hashValue)
+            if let movie = realm.object(ofType: Movie.self, forPrimaryKey: hashString) {
+                success(movie)
+            }
+        } catch {
+            NSLog("Error getting movie \(title): \(error.localizedDescription)")
         }
     }
 }

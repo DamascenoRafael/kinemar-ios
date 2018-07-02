@@ -224,9 +224,13 @@ class ARViewController: UIViewController, ARSCNViewDelegate {
         switch tappedNode.name {
         case "playButton":
             NSLog("## play video")
+            MovieService.instance.getMovie(withTitle: movieTitle) { movie in
+                KinemarYoutubePlayer.instance.present(videoIdentifier: movie.trailer!)
+            }
         case "ticketButton":
             NSLog("## buy ticket")
         default:
             NSLog("Action not registered for node")
         }
-    }}
+    }
+}

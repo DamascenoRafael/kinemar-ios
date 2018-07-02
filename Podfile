@@ -5,5 +5,6 @@ target 'kinemAR' do
 
   # Pods for kinemAR
   pod 'RealmSwift'
+  pod 'XCDYouTubeKit'
 
 end

@@ -4,19 +4,23 @@ PODS:
   - Realm/Headers (3.7.4)
   - RealmSwift (3.7.4):
     - Realm (= 3.7.4)
+  - XCDYouTubeKit (2.5.6)
 
 DEPENDENCIES:
   - RealmSwift
+  - XCDYouTubeKit
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - Realm
     - RealmSwift
+    - XCDYouTubeKit
 
 SPEC CHECKSUMS:
   Realm: a469bb59e33f9926102ccaea4349822c53b9117e
   RealmSwift: a45861b21c180f5cf0f122144b9759fa8dde3e9e
+  XCDYouTubeKit: dccfe0c17dd5c5187969ec27e93069573badb08f
 
-PODFILE CHECKSUM: 7b281b9556a94fd5f2a727d3e354343c1ac3567f
+PODFILE CHECKSUM: e8eee025121443991cae3cdd4f6ed36848b8b4a7
 
 COCOAPODS: 1.5.3

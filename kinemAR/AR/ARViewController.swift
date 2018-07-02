@@ -111,49 +111,38 @@ class ARViewController: UIViewController, ARSCNViewDelegate {
         
         updateQueue.async {
             
-            node.name = referenceImage.name
-            let textNode = self.createTextNode(string: "99%")
-            node.addChildNode(textNode)
+            let movieTitle = referenceImage.name!
+            node.name = movieTitle
             
             let playButton = self.playButtonNode
+            
+            let info = self.infoNode
+            info.switchPosition(to: .insideBottomRight, imageAnchor: imageAnchor)
             
             let ticket = self.ticketNode
             ticket.switchPosition(to: .top, imageAnchor: imageAnchor)
             
-            let tomato = self.tomatoNode
-            tomato.switchPosition(to: .left, imageAnchor: imageAnchor)
+            //let tomato = self.tomatoNode
+            let tomato = self.badTomatoNode
+            tomato.switchPosition(to: .bottomRight, imageAnchor: imageAnchor)
             
-            let popcorn = self.popcornNode
-            popcorn.switchPosition(to: .right, imageAnchor: imageAnchor)
+            //let popcorn = self.popcornNode
+            let popcorn = self.badPopcornNode
+            popcorn.switchPosition(to: .topRight, imageAnchor: imageAnchor)
             
+            let imdb = self.imdbNode
+            imdb.switchPosition(to: .topLeft, imageAnchor: imageAnchor)
+            
+            let metacritic = self.metacriticNode
+            metacritic.switchPosition(to: .bottomLeft, imageAnchor: imageAnchor)
+            
+            node.addChildNode(imdb)
+            node.addChildNode(metacritic)
             node.addChildNode(playButton)
             node.addChildNode(ticket)
             node.addChildNode(tomato)
             node.addChildNode(popcorn)
-            
-             /*
-             // Create a plane to visualize the initial position of the detected image.
-             let plane = SCNPlane(width: referenceImage.physicalSize.width,
-             height: referenceImage.physicalSize.height)
-             let planeNode = SCNNode(geometry: plane)
-             planeNode.opacity = 0.25
-             
-             /*
-             `SCNPlane` is vertically oriented in its local coordinate space, but
-             `ARImageAnchor` assumes the image is horizontal in its local space, so
-             rotate the plane to match.
-             */
-             planeNode.eulerAngles.x = -.pi / 2
-             
-             /*
-             Image anchors are not tracked after initial detection, so create an
-             animation that limits the duration for which the plane visualization appears.
-             */
-             planeNode.runAction(self.imageHighlightAction)
-             
-             // Add the plane visualization to the scene.
-             node.addChildNode(planeNode)
-             */
+            node.addChildNode(info)
         }
         
         DispatchQueue.main.async {

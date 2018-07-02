@@ -5,6 +5,11 @@ enum Position {
     case bottom
     case left
     case right
+    case topLeft
+    case bottomLeft
+    case topRight
+    case bottomRight
+    case insideBottomRight
 }
 
 extension SCNNode {
@@ -22,6 +27,21 @@ extension SCNNode {
             self.position.x = -Float(imageAnchor.referenceImage.physicalSize.width / 2) - halfWidth - gap
         case .right:
             self.position.x = +Float(imageAnchor.referenceImage.physicalSize.width / 2) + halfWidth + gap
+        case .topLeft:
+            self.position.z = -Float(imageAnchor.referenceImage.physicalSize.height / 4) - gap
+            self.position.x = -Float(imageAnchor.referenceImage.physicalSize.width / 2) - halfWidth - gap
+        case .bottomLeft:
+            self.position.z = +Float(imageAnchor.referenceImage.physicalSize.height / 4) + gap
+            self.position.x = -Float(imageAnchor.referenceImage.physicalSize.width / 2) - halfWidth - gap
+        case .topRight:
+            self.position.z = -Float(imageAnchor.referenceImage.physicalSize.height / 4) - gap
+            self.position.x = +Float(imageAnchor.referenceImage.physicalSize.width / 2) + halfWidth + gap
+        case .bottomRight:
+            self.position.z = +Float(imageAnchor.referenceImage.physicalSize.height / 4) + gap
+            self.position.x = +Float(imageAnchor.referenceImage.physicalSize.width / 2) + halfWidth + gap
+        case .insideBottomRight:
+            self.position.z = +Float(imageAnchor.referenceImage.physicalSize.height / 2) - halfWidth + gap
+            self.position.x = +Float(imageAnchor.referenceImage.physicalSize.width / 2) - halfWidth + gap
         }
     }
 }

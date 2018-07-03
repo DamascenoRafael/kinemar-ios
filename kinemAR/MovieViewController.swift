@@ -46,7 +46,7 @@ class MovieViewController: UIViewController {
     }
     
     @IBAction func purchaseTickts(_ sender: Any) {
-        guard KinemarTicketPurchase.instance.openDeepLinkIfAvailable(ingressoId: movie.ingressoId!) else {
+        guard KinemarTicketPurchase.instance.openDeepLinkIfAvailable(ingressoId: movie.ingressoID!) else {
             self.performSegue(withIdentifier: "showTicketPurchase", sender: movie.ticket!)
             return
         }

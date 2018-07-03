@@ -7,8 +7,8 @@
         "countryOfOrigin": "EUA", 
         "poster": "https://ingresso-a.akamaihd.net/img/cinema/cartaz/20532-cartaz.jpg", 
         "writer": "Brad Bird", 
-        "year": "2018", 
-        "contentRating": "10", 
+        "premiereYear": "2018",
+        "contentRating": "L", 
         "director": "Brad Bird", 
         "ratings": [
             {
@@ -30,23 +30,13 @@
         ], 
         "production": "Disney/Pixar", 
         "actors": "Craig T. Nelson, Holly Hunter, Sarah Vowell, Huck Milner", 
+        "ingressoID": "20532", 
         "imdbID": "tt3606756", 
         "genre": "Animation, Action, Adventure", 
         "movieOutline": "A fam\u00edlia de her\u00f3is preferida est\u00e1 de volta em \u2018Os Incr\u00edveis 2\u2019. Dessa vez, Helena \u00e9 quem assume os holofotes, deixando Roberto em casa com Violeta e Flecha para conduzir o heroico dia-a-dia de uma vida \u201cnormal\u201d. \u00c9 uma transi\u00e7\u00e3o dif\u00edcil para todos, que se complica ainda mais tendo em vista que a fam\u00edlia ainda n\u00e3o sabe dos superpoderes do beb\u00ea Zez\u00e9. Quando um novo super vil\u00e3o tra\u00e7a um plano perigoso e brilhante, a fam\u00edlia e o Gelado precisar\u00e3o encontrar um jeito de trabalhar juntos novamente \u2013 o que \u00e9 mais f\u00e1cil de dizer do que de colocar em pr\u00e1tica, mesmo todos eles sendo realmente incr\u00edveis.", 
         "runtime": "118 min", 
         "ticket": "https://www.ingresso.com/rio-de-janeiro/home/filmes/os-incriveis-2", 
         "trailer": "B4qVrpIBWq0"
-    }, 
-    {
-        "originalTitle": "R\u00fassia 2018 - Brasil X M\u00e9xico", 
-        "title": "R\u00fassia 2018 - Brasil X M\u00e9xico", 
-        "countryOfOrigin": "", 
-        "poster": "https://ingresso-a.akamaihd.net/img/cinema/cartaz/21469-cartaz.jpg", 
-        "contentRating": "Consulte a classifica\u00e7\u00e3o", 
-        "director": "", 
-        "movieOutline": "Jogo das oitavas de final da Copa do Mundo 2018", 
-        "ticket": "https://www.ingresso.com/rio-de-janeiro/home/filmes/russia-2018-brasil-x-mexico", 
-        "trailer": null
     }, 
     {
         "website": "N/A", 
@@ -56,12 +46,13 @@
         "countryOfOrigin": "EUA", 
         "poster": "https://ingresso-a.akamaihd.net/img/cinema/cartaz/20541-cartaz.jpg", 
         "writer": "Chris McKenna (screenplay by), Erik Sommers (screenplay by), Andrew Barrer (screenplay by), Gabriel Ferrari (screenplay by), Paul Rudd (screenplay by), Stan Lee (based on the Marvel comics by), Larry Lieber (based on the Marvel comics by), Jack Kirby (based on the Marvel comics by)", 
-        "year": "2018", 
+        "premiereYear": "2018",
         "contentRating": "Consulte a classifica\u00e7\u00e3o", 
         "director": "Peyton Reed", 
         "ratings": [], 
         "production": "Walt Disney Pictures", 
         "actors": "Evangeline Lilly, Hannah John-Kamen, Paul Rudd, Judy Greer", 
+        "ingressoID": "20541", 
         "imdbID": "tt5095030", 
         "genre": "Action, Adventure, Sci-Fi", 
         "movieOutline": "Depois dos acontecimentos de Capit\u00e3o Am\u00e9rica: Guerra Civil, Scott Lang precisa lidar com as consequ\u00eancias de suas escolhas como super-her\u00f3i e pai. Ainda esfor\u00e7ando-se para equilibrar a vida pessoal com suas responsabilidades como Homem-Formiga, ele \u00e9 procurado por Hope van Dyne e Dr. Hank Pym para uma nova miss\u00e3o urgente. Scott deve vestir o traje mais uma vez e aprender a lutar ao lado da Vespa quando o time se reunir para descobrir segredos do passado.", 
@@ -77,7 +68,7 @@
         "countryOfOrigin": "EUA", 
         "poster": "https://ingresso-a.akamaihd.net/img/cinema/cartaz/20543-cartaz.jpg", 
         "writer": "Derek Connolly, Colin Trevorrow, Michael Crichton (based on characters created by)", 
-        "year": "2018", 
+        "premiereYear": "2018",
         "contentRating": "12", 
         "director": "J. A. Bayona", 
         "ratings": [
@@ -96,6 +87,7 @@
         ], 
         "production": "Universal Pictures", 
         "actors": "Chris Pratt, Bryce Dallas Howard, Rafe Spall, Justice Smith", 
+        "ingressoID": "20543", 
         "imdbID": "tt4881806", 
         "genre": "Action, Adventure, Sci-Fi", 
         "movieOutline": "Quatro anos ap\u00f3s o fechamento do Jurassic Park, um vulc\u00e3o prestes a entrar em erup\u00e7\u00e3o p\u00f5e em risco a vida na ilha Nublar. No local n\u00e3o h\u00e1 mais qualquer presen\u00e7a humana, com os dinossauros vivendo livremente. Diante da situa\u00e7\u00e3o, \u00e9 preciso tomar uma decis\u00e3o: deve-se retornar \u00e0 ilha para salvar os animais ou abandon\u00e1-los para uma nova extin\u00e7\u00e3o? Decidida a resgat\u00e1-los, Claire (Bryce Dallas Howard) convoca Owen (Chris Pratt) a retornar \u00e0 ilha com ela.", 
@@ -110,6 +102,7 @@
         "poster": "https://ingresso-a.akamaihd.net/img/cinema/cartaz/19921-cartaz.jpg", 
         "contentRating": "14", 
         "director": "Gary Ross", 
+        "ingressoID": "19921", 
         "movieOutline": "Rec\u00e9m-sa\u00edda da pris\u00e3o, Debbie Ocean, planeja executar o assalto do s\u00e9culo em pleno Met Gala, em Nova York, com o apoio de Lou, Nine Ball, Amita , Constance , Rose, Daphne Kluger  e Tammy.", 
         "ticket": "https://www.ingresso.com/rio-de-janeiro/home/filmes/oito-mulheres-e-um-segredo", 
         "trailer": "HxFDuCm4qac"
@@ -122,7 +115,7 @@
         "countryOfOrigin": "Estados Unidos", 
         "poster": "https://ingresso-a.akamaihd.net/img/cinema/cartaz/21167-cartaz.jpg", 
         "writer": "Abby Kohn, Marc Silverstein", 
-        "year": "2018", 
+        "premiereYear": "2018",
         "contentRating": "12", 
         "director": "Abby Kohn, Marc Silverstein", 
         "ratings": [
@@ -145,6 +138,7 @@
         ], 
         "production": "STXfilms", 
         "actors": "Amy Schumer, Michelle Williams, Tom Hopper, Rory Scovel", 
+        "ingressoID": "21167", 
         "imdbID": "tt6791096", 
         "genre": "Comedy", 
         "movieOutline": "Renee, uma mulher comum, luta diariamente com sua inseguran\u00e7a. Depois de cair de bicicleta e bater a cabe\u00e7a, ela de repente acorda acreditando ser a mulher mais capaz e bonita do mundo. E com isso Renee come\u00e7a a viver a vida mais confiante e sem medo das falhas.", 
@@ -159,6 +153,7 @@
         "poster": "https://ingresso-a.akamaihd.net/img/cinema/cartaz/21295-cartaz.jpg", 
         "contentRating": "16", 
         "director": "Ari Aster", 
+        "ingressoID": "21295", 
         "movieOutline": "Ap\u00f3s a morte da reclusa av\u00f3, a fam\u00edlia Graham come\u00e7a a desvendar algumas coisas. Mesmo ap\u00f3s a partida da matriarca, ela permanece como se fosse um sombra sobre a fam\u00edlia, especialmente sobre a solit\u00e1ria neta adolescente.", 
         "ticket": "https://www.ingresso.com/rio-de-janeiro/home/filmes/hereditario", 
         "trailer": "Ui13PlmyZhQ"
@@ -170,6 +165,7 @@
         "poster": "https://ingresso-a.akamaihd.net/img/cinema/cartaz/21247-cartaz.jpg", 
         "contentRating": "16", 
         "director": "Stefano Sollima", 
+        "ingressoID": "21247", 
         "movieOutline": "Depois de Sicario - Terra de Ningu\u00e9m, acompanhe o misterioso Alejandro Gillick e o oficial da CIA, Matt Graver, trabalhando juntos em uma audaciosa a\u00e7\u00e3o secreta. Na miss\u00e3o que envolve a filha de um chef\u00e3o das drogas, Isabela, Alejandro acaba se vendo em uma encruzilhada moral e suas escolhas podem acabar desencadeando uma sangrenta guerra de cart\u00e9is.", 
         "ticket": "https://www.ingresso.com/rio-de-janeiro/home/filmes/sicario-dia-do-soldado", 
         "trailer": "AklZ7487WZM"
@@ -182,7 +178,7 @@
         "countryOfOrigin": "Estados Unidos", 
         "poster": "https://ingresso-a.akamaihd.net/img/cinema/cartaz/21290-cartaz.jpg", 
         "writer": "Bill Holderman, Erin Simms", 
-        "year": "2018", 
+        "premiereYear": "2018",
         "contentRating": "12", 
         "director": "Bill Holderman", 
         "ratings": [
@@ -205,6 +201,7 @@
         ], 
         "production": "Paramount Pictures", 
         "actors": "Diane Keaton, Jane Fonda, Candice Bergen, Mary Steenburgen", 
+        "ingressoID": "21290", 
         "imdbID": "tt6857166", 
         "genre": "Comedy", 
         "movieOutline": "Na Calif\u00f3rnia, quatro amigas de longa data est\u00e3o na casa dos 60 anos e decidem ler no clube do livro mensal o romance Cinquenta Tons de Cinza.", 
@@ -220,7 +217,7 @@
         "countryOfOrigin": "Estados Unidos", 
         "poster": "https://ingresso-a.akamaihd.net/img/cinema/cartaz/20958-cartaz.jpg", 
         "writer": "Rhett Reese, Paul Wernick, Ryan Reynolds", 
-        "year": "2018", 
+        "premiereYear": "2018",
         "contentRating": "16", 
         "director": "David Leitch", 
         "ratings": [
@@ -243,6 +240,7 @@
         ], 
         "production": "Twentieth Century Fox", 
         "actors": "Ryan Reynolds, Josh Brolin, Morena Baccarin, Julian Dennison", 
+        "ingressoID": "20958", 
         "imdbID": "tt5463162", 
         "genre": "Action, Adventure, Comedy", 
         "movieOutline": "O bocudo mercen\u00e1rio da Marvel est\u00e1 de volta! Maior, melhor e, ocasionalmente, mais pelado do que nunca. Quando um super soldado chega em uma miss\u00e3o assassina, Deadpool \u00e9 for\u00e7ado a pensar em amizade, fam\u00edlia e o que realmente significa ser um her\u00f3i - tudo isso, enquanto chuta 50 tons de bundas. Porque, \u00e0s vezes, para fazer a coisa certa, voc\u00ea precisa lutar sujo.", 
@@ -258,7 +256,7 @@
         "countryOfOrigin": "Estados Unidos", 
         "poster": "https://ingresso-a.akamaihd.net/img/cinema/cartaz/21190-cartaz.jpg", 
         "writer": "Ben Zazove (screenplay by), Andy Riley (story by), Kevin Cecil (story by), Emily Cook (story by), Kathy Greenberg (story by), Rob Sprackling (based on characters by), John Smith (based on characters by), Andy Riley (based on characters by), Kevin Cecil (based on characters by), Kelly Asbury (based on characters by), Steve Hamilton Shaw", 
-        "year": "2018", 
+        "premiereYear": "2018",
         "contentRating": "L", 
         "director": "John Stevenson", 
         "ratings": [
@@ -281,6 +279,7 @@
         ], 
         "production": "Paramount Pictures", 
         "actors": "Kelly Asbury, Mary J. Blige, Emily Blunt, Julio Bonet", 
+        "ingressoID": "21190", 
         "imdbID": "tt2296777", 
         "genre": "Animation, Adventure, Comedy", 
         "movieOutline": "Os gnomos Gnomeu e Julieta recrutam Sherlock Holmes para investigar caso do desaparecimento de outros gnomos de jardim de Londres.", 
@@ -295,6 +294,7 @@
         "poster": "https://ingresso-a.akamaihd.net/img/cinema/cartaz/21380-cartaz.jpg", 
         "contentRating": "14", 
         "director": "Sebasti\u00e1n Lelio", 
+        "ingressoID": "21380", 
         "movieOutline": "Ronit  precisa voltar para sua cidade natal ap\u00f3s a morte de seu pai distante - um rabino. Mas ela causa um rebuli\u00e7o no pacato local ao recordar uma paix\u00e3o proibida pela melhor amiga de inf\u00e2ncia, que atualmente \u00e9 casada com seu primo.", 
         "ticket": "https://www.ingresso.com/rio-de-janeiro/home/filmes/desobediencia", 
         "trailer": null
@@ -306,6 +306,7 @@
         "poster": "https://ingresso-a.akamaihd.net/img/cinema/cartaz/20916-cartaz.jpg", 
         "contentRating": "12", 
         "director": "Joe Russo, Anthony Russo", 
+        "ingressoID": "20916", 
         "movieOutline": "Thanos chega \u00e0 Terra, disposto a reunir as Joias do Infinito. Para enfrent\u00e1-lo, os Vingadores precisam unir for\u00e7as com os Guardi\u00f5es da Gal\u00e1xia.", 
         "ticket": "https://www.ingresso.com/rio-de-janeiro/home/filmes/vingadores-guerra-infinita", 
         "trailer": "DPOw2hfgCHI"
@@ -317,6 +318,7 @@
         "poster": "https://ingresso-a.akamaihd.net/img/cinema/cartaz/21175-cartaz.jpg", 
         "contentRating": "16", 
         "director": "Heitor Dhalia", 
+        "ingressoID": "21175", 
         "movieOutline": "Quando pessoas come\u00e7am a utilizar explosivos para pescar na orla de Salvador, na Bahia, um sargento do ex\u00e9rcito aposentado, um policial e sua esposa e um traficante v\u00e3o se unir e far\u00e3o de tudo para acabar com esse crime ambiental.", 
         "ticket": "https://www.ingresso.com/rio-de-janeiro/home/filmes/tungstenio", 
         "trailer": "JG5OSt9_v0g"
@@ -328,6 +330,7 @@
         "poster": "https://ingresso-a.akamaihd.net/img/cinema/cartaz/19394-cartaz.jpg", 
         "contentRating": "10", 
         "director": "Rodrigo Bernardo", 
+        "ingressoID": "19394", 
         "movieOutline": "Virg\u00edlio chega em casa ap\u00f3s o trabalho e escuta o recado de Clara, pela secret\u00e1ria eletr\u00f4nica, comunicando o t\u00e9rmino do relacionamento dos dois. O \u00fanico problema \u00e9 que Virg\u00edlio \u00e9 solteiro e n\u00e3o faz ideia de quem Clara seja.", 
         "ticket": "https://www.ingresso.com/rio-de-janeiro/home/filmes/talvez-uma-historia-de-amor", 
         "trailer": "_P_aQS9cO7A"
@@ -340,12 +343,13 @@
         "countryOfOrigin": "Brasil", 
         "poster": "https://ingresso-a.akamaihd.net/img/cinema/cartaz/21195-cartaz.jpg", 
         "writer": "Ana Maria Moretzsohn (adaptation), Patr\u00edcia Moretzsohn (adaptation)", 
-        "year": "2017", 
+        "premiereYear": "2017",
         "contentRating": "12", 
         "director": "Andr\u00e9 Moraes", 
         "ratings": [], 
         "production": "N/A", 
         "actors": "Leandro Hassum, Will Roberts, Laura Ramos, Bryan Ruffo", 
+        "ingressoID": "21195", 
         "imdbID": "tt6038114", 
         "genre": "Comedy", 
         "movieOutline": "Juca Valente \u00e9 dono de um quiosque no litoral de S\u00e3o Paulo e s\u00f3 quer saber de divers\u00e3o. Eterno namorador, ele n\u00e3o gosta de responsabilidades e n\u00e3o pensa em ter nada s\u00e9rio com ningu\u00e9m. Mas sua vida toma um rumo totalmente diferente quando uma ex-namorada americana larga um beb\u00ea com ele e desaparece.", 
@@ -360,6 +364,7 @@
         "poster": "https://ingresso-a.akamaihd.net/img/cinema/cartaz/21219-cartaz.jpg", 
         "contentRating": "18", 
         "director": "Fran\u00e7ois Ozon", 
+        "ingressoID": "21219", 
         "movieOutline": "Chlo\u00e9 \u00e9 uma mulher reprimida sexualmente que, constantemente, sente dores na altura do est\u00f4mago. Acreditando que seu problema seja psicol\u00f3gico, ela busca a ajuda de Paul, um psic\u00f3logo. S\u00f3 que, com o andar as sess\u00f5es de terapia, eles acabam se apaixonando. Diante da situa\u00e7\u00e3o, Paul encerra a terapia e indica uma colega para tratar a esposa. Entretanto, ela resolve se consultar com outro psic\u00f3logo, o irm\u00e3o g\u00eameo de Paul, que ela nunca tinha ouvido falar at\u00e9 ent\u00e3o.", 
         "ticket": "https://www.ingresso.com/rio-de-janeiro/home/filmes/o-amante-duplo", 
         "trailer": null
@@ -371,6 +376,7 @@
         "poster": "https://ingresso-a.akamaihd.net/img/cinema/cartaz/21123-cartaz.jpg", 
         "contentRating": "14", 
         "director": "Willy Biondani", 
+        "ingressoID": "21123", 
         "movieOutline": "O escritor brasileiro Alberto Luppo (Sergio Guiz\u00e9) mora em Paris h\u00e1 anos e n\u00e3o deseja retornar ao pa\u00eds de origem. Mas quando um antrop\u00f3logo franc\u00eas desaparece no interior do Brasil, Alberto \u00e9 obrigado a retornar \u00e0 terra natal para transformar a hist\u00f3ria em livro. No entanto, durante a viagem, entre medo e encantamento, se entrega ao destino. Guiado por Beth\u00e2nia (D\u00e9bora Nascimento), descobre em tudo o que desprezava, a beleza de sua pr\u00f3pria identidade.", 
         "ticket": "https://www.ingresso.com/rio-de-janeiro/home/filmes/alem-do-homem", 
         "trailer": "DJUkQGINtm8"
@@ -382,6 +388,7 @@
         "poster": "https://ingresso-a.akamaihd.net/img/cinema/cartaz/20120-cartaz.jpg", 
         "contentRating": "14", 
         "director": "Allan Fiterman", 
+        "ingressoID": "20120", 
         "movieOutline": "Berenice \u00e9 uma mulher dedicada ao trabalho de taxista no Rio de Janeiro. \u00c9 consumida pela profiss\u00e3o e o pouco tempo que lhe sobra precisa ser dividido entre a cria\u00e7\u00e3o do filho Thiago, um adolescente descobrindo sua sexualidade, e sua conturbada rela\u00e7\u00e3o com o marido Domingos, rep\u00f3rter policial. As marcas do relacionamento desgastado, arruinado pelos rompantes violentos do marido, apagaram sua feminilidade e a levaram a um grande vazio existencial. O assassinato de Isabelle, uma linda transg\u00eanero, na praia de Copacabana, acende seu lado investigativo e transforma sua vida.", 
         "ticket": "https://www.ingresso.com/rio-de-janeiro/home/filmes/berenice-procura", 
         "trailer": "SHIW8o8x5ZQ"
@@ -394,7 +401,7 @@
         "countryOfOrigin": "Estados Unidos", 
         "poster": "https://ingresso-a.akamaihd.net/img/cinema/cartaz/21020-cartaz.jpg", 
         "writer": "Jonathan Kasdan, Lawrence Kasdan, George Lucas (based on characters created by)", 
-        "year": "2018", 
+        "premiereYear": "2018",
         "contentRating": "12", 
         "director": "Ron Howard", 
         "ratings": [
@@ -413,6 +420,7 @@
         ], 
         "production": "Walt Disney Pictures", 
         "actors": "Alden Ehrenreich, Joonas Suotamo, Woody Harrelson, Emilia Clarke", 
+        "ingressoID": "21020", 
         "imdbID": "tt3778644", 
         "genre": "Action, Adventure, Fantasy", 
         "movieOutline": "A hist\u00f3ria ir\u00e1 focar em como o jovem Han Solo se tornou o traficante, ladr\u00e3o e canalha que Luke Skywalker e Obi-Wan Kenobi encontraram pela primeira vez na cantina de Mos Eisle", 
@@ -421,12 +429,25 @@
         "trailer": "UtpnRFzZWlM"
     }, 
     {
+        "originalTitle": "O N\u00f3 do Diabo", 
+        "title": "O N\u00f3 do Diabo", 
+        "countryOfOrigin": "Brasil", 
+        "poster": "https://ingresso-a.akamaihd.net/img/cinema/cartaz/20578-cartaz.jpg", 
+        "contentRating": "16", 
+        "director": "Ramon Porto Mota, Gabriel Martins, Ian Ab\u00e9. Jh\u00e9sus Tribuzi", 
+        "ingressoID": "20578", 
+        "movieOutline": "Cinco contos de horror. Uma fazenda tomada por terrores ha\u00b4 mais de duzentos anos. Cinco encontros com a morte. Um no\u00b4 que na~o se desata.", 
+        "ticket": "https://www.ingresso.com/rio-de-janeiro/home/filmes/o-no-do-diabo", 
+        "trailer": "EKMKTQhPrEA"
+    }, 
+    {
         "originalTitle": "Paul, Apostle of Christ", 
         "title": "Paulo, Ap\u00f3stolo de Cristo", 
         "countryOfOrigin": "Estados Unidos", 
         "poster": "https://ingresso-a.akamaihd.net/img/cinema/cartaz/21076-cartaz.jpg", 
         "contentRating": "12", 
         "director": "Andrew Hyatt", 
+        "ingressoID": "21076", 
         "movieOutline": "Paulo era conhecido como um dos perseguidores de crist\u00e3os mais cruel de seu tempo. Mas tudo muda quando ele tem um encontro com o pr\u00f3prio Jesus. A partir desse momento, esse jovem se torna um dos ap\u00f3stolos mais infuentes do cristianismo.", 
         "ticket": "https://www.ingresso.com/rio-de-janeiro/home/filmes/paulo-apostolo-de-cristo", 
         "trailer": "bfdz6YSEU9Q"
@@ -438,6 +459,7 @@
         "poster": "https://ingresso-a.akamaihd.net/img/cinema/cartaz/20110-cartaz.jpg", 
         "contentRating": "14", 
         "director": "Juliana Rojas, Marco Dutra", 
+        "ingressoID": "20110", 
         "movieOutline": "Clara, enfermeira solit\u00e1ria da periferia de S\u00e3o Paulo, \u00e9 contratada pela rica e misteriosa Ana como bab\u00e1 de seu futuro filho. Uma noite de lua cheia muda para sempre a vida das duas mulheres.", 
         "ticket": "https://www.ingresso.com/rio-de-janeiro/home/filmes/as-boas-maneiras", 
         "trailer": "FXE-YqM-ROo"
@@ -449,6 +471,7 @@
         "poster": "https://ingresso-a.akamaihd.net/img/cinema/cartaz/19400-cartaz.jpg", 
         "contentRating": "12", 
         "director": "Juliana Antunes", 
+        "ingressoID": "19400", 
         "movieOutline": "Andreia quer se mudar. Leid espera pelo marido preso. Vizinhas em um bairro na periferia de Belo Horizonte, elas tentam se desviar dos perigos de uma guerra do tr\u00e1fico e evitar as trag\u00e9dias trazidas junto com a chuva.", 
         "ticket": "https://www.ingresso.com/rio-de-janeiro/home/filmes/baronesa", 
         "trailer": "f4ejBt6HbCQ"
@@ -460,6 +483,7 @@
         "poster": "https://ingresso-a.akamaihd.net/img/cinema/cartaz/21194-cartaz.jpg", 
         "contentRating": "14", 
         "director": "Monique Gardenberg", 
+        "ingressoID": "21194", 
         "movieOutline": "Para\u00edso Perdido \u00e9 um clube noturno gerenciado por Jos\u00e9  e movimentado por apresenta\u00e7\u00f5es musicais de seus herdeiros. O policial Odair se aproxima da fam\u00edlia ao ser contratado para fazer a seguran\u00e7a do jovem talento \u00cdm\u00e3, neto de Jos\u00e9 e alvo frequente de homof\u00f3bicos, e aos poucos o la\u00e7o entre o agente e o cl\u00e3 de artistas rom\u00e2nticos vai se revelando mais e mais forte - com n\u00f3s surpreendentes.", 
         "ticket": "https://www.ingresso.com/rio-de-janeiro/home/filmes/paraiso-perdido", 
         "trailer": "t50XHMvNk3M"
@@ -471,6 +495,7 @@
         "poster": "https://ingresso-a.akamaihd.net/img/cinema/cartaz/21292-cartaz.jpg", 
         "contentRating": "14", 
         "director": "Alexy German Jr.", 
+        "ingressoID": "21292", 
         "movieOutline": "Seis dias na vida do escritor Sergei Dovlatov, que sofreu com os r\u00edgidos limites e a censura pol\u00edtica da Uni\u00e3o Sovi\u00e9tica nos anos 70. Dovlatov lutou para preservar seu talento e dec\u00eancia ao lado do poeta Joseph Brodsky, enquanto observava seus amigos artistas serem exilados \u00e0 for\u00e7a pelo governo.", 
         "ticket": "https://www.ingresso.com/rio-de-janeiro/home/filmes/dovlatov", 
         "trailer": "DtKNxVHny4w"
@@ -482,6 +507,7 @@
         "poster": "https://ingresso-a.akamaihd.net/img/cinema/cartaz/21256-cartaz.jpg", 
         "contentRating": "12", 
         "director": "Tom Kirk, Jan Willem Schram", 
+        "ingressoID": "21256", 
         "movieOutline": "Muse, a renomada e premiada banda embarcou na sua ambiciosa Drones World Tour em 2015-2016, tocando em mais de 130 dias ao redor do mundo. Conhecida por testar os limites em termos de produ\u00e7\u00e3o de palco, a banda performou na turn\u00ea em um palco circular no meio da arena, uma configura\u00e7\u00e3o de palco que deu aos f\u00e3s uma experi\u00eancia sensorial auditiva e visual de 360\u00ba. O ponto central para o visual da turn\u00ea foram os Drones, que voaram de forma aut\u00f4noma acima do palco e entre o p\u00fablico, junto com proje\u00e7\u00f5es gigantes que interagiram com os membros da banda no palco. Esse espet\u00e1culo, apresentando LEDs e lasers, complementou perfeitamente o repert\u00f3rio da celebrada banda. Dentre as m\u00fasicas apresentadas, estavam os destaques \u201cPsycho\u201d, \u201cMadness\u201d, \u201cUprising\u201d, \u201cPlug in Baby\u201d, \u201cSupermassive Black Hole\u201d e \u201cKnights of Cydonia.\u201d Filmado em m\u00faltiplos shows, o filme inclui efeitos especiais nunca antes vistos e um depoimento exclusivo da banda na introdu\u00e7\u00e3o. O The New York Times descreveu a experi\u00eancia ao vivo como \u201cuma engrandecimento sem fim, rumo ao \u00eastase \u2013 \u00e9 o que um show do Muse se prop\u00f5e a oferecer de todas as formas poss\u00edveis.\u201d Aqui, encontramos a banda no auge de seus poderes, criando uma experi\u00eancia inesquec\u00edvel aos f\u00e3s, que exige ser vista nas telonas.", 
         "ticket": "https://www.ingresso.com/rio-de-janeiro/home/filmes/muse-drones-world-tour", 
         "trailer": null
@@ -493,6 +519,7 @@
         "poster": "https://ingresso-a.akamaihd.net/img/cinema/cartaz/21358-cartaz.jpg", 
         "contentRating": "L", 
         "director": "", 
+        "ingressoID": "21358", 
         "movieOutline": "Transmiss\u00e3o ao VIVO da grande FINAL da Copa do Mundo da R\u00fassia 2018.", 
         "ticket": "https://www.ingresso.com/rio-de-janeiro/home/filmes/copa-do-mundo-da-fifa-russia-2018", 
         "trailer": null
@@ -504,6 +531,7 @@
         "poster": "https://ingresso-a.akamaihd.net/img/cinema/cartaz/21376-cartaz.jpg", 
         "contentRating": "16", 
         "director": "Atsuko Hirayanagi\n\n", 
+        "ingressoID": "21376", 
         "movieOutline": "Setsuko est\u00e1 presa em sua vida mon\u00f3tona em T\u00f3quio, at\u00e9 que um dia, ela decide iniciar uma aula de ingl\u00eas que exige que ela use peruca loira e viva como uma personagem americana chamada `Lucy\u00b4. A nova identidade desperta algo adormecido em Setsuko. Ela se apaixona por seu professor americano John, que desaparece repentinamente. Setsuko ent\u00e3o, decide ir para a Am\u00e9rica em busca de seu amado, e sua vida ir\u00e1 virar de cabe\u00e7a para baixo.", 
         "ticket": "https://www.ingresso.com/rio-de-janeiro/home/filmes/oh-lucy", 
         "trailer": null
@@ -515,6 +543,7 @@
         "poster": "https://ingresso-a.akamaihd.net/img/cinema/cartaz/17-cartaz.jpg", 
         "contentRating": "14", 
         "director": "Karen Shakhnazarov", 
+        "ingressoID": "17", 
         "movieOutline": "1904. Guerra Russo-Japonesa. Manch\u00faria. Hospital militar russo nas esta\u00e7\u00f5es de retirada de um vilarejo chin\u00eas parcialmente destru\u00eddo. O respons\u00e1vel pelo hospital, Sergei Karenin, descobre que o Conde Vronsky, ferido e em recupera\u00e7\u00e3o ali, \u00e9 o homem que arruinou a vida de sua m\u00e3e, Anna Karenina. Sem nutrir esperan\u00e7as ou esperar respostas, Karenin faz a Vronsky a pergunta que o vem atormentando por toda a vida: o que fez a sua m\u00e3e tirar a pr\u00f3pria vida? Depois de hesitar um pouco, Vronsky concorda em contar a hist\u00f3ria de seu tr\u00e1gico amor por Anna Karenina, ressaltando que as pessoas s\u00f3 lembram o que escolhem se lembrar. Imerso no passado, Vronsky come\u00e7a a rememorar uma hist\u00f3ria de 30 anos atr\u00e1s e finalmente percebe o quanto, ao longo dos anos, esteve sufocado pelo passado.", 
         "ticket": "https://www.ingresso.com/rio-de-janeiro/home/filmes/anna-karenina-a-historia-de-vronsky", 
         "trailer": null
@@ -526,6 +555,7 @@
         "poster": "https://ingresso-a.akamaihd.net/img/cinema/cartaz/21141-cartaz.jpg", 
         "contentRating": "L", 
         "director": "Maria Augusta Ramos", 
+        "ingressoID": "21141", 
         "movieOutline": "Em cerca de 450 horas de material filmado e meses de trabalho, Maria Augusta Ramos acompanhou todo o processo que culminou no impeachment da presidente Dilma Rousseff. Com acesso \u00fanico a ela e sua defesa, filmou horas e horas de reuni\u00f5es e discuss\u00f5es a portas fechadas com a presen\u00e7a do advogado Jos\u00e9 Eduardo Cardozo, sua equipe, e os senadores e assessores da Lideran\u00e7a do PT e da minoria no Senado. Circulando por corredores do Congresso Nacional, testemunhou bastidores nunca mostrados em notici\u00e1rios de cadeia nacional.", 
         "ticket": "https://www.ingresso.com/rio-de-janeiro/home/filmes/o-processo", 
         "trailer": "vc67jk8PGYs"
@@ -537,6 +567,7 @@
         "poster": "https://ingresso-a.akamaihd.net/img/cinema/cartaz/21156-cartaz.jpg", 
         "contentRating": "14", 
         "director": "Lula Carvalho, Natasha Neri\n", 
+        "ingressoID": "21156", 
         "movieOutline": "Um document\u00e1rio sobre os homic\u00eddios praticados pela pol\u00edcia contra civis, no Rio de Janeiro, em casos conhecidos como `autos de resist\u00eancia\u00b4. O filme acompanha a trajet\u00f3ria de personagens que lidam com essas mortes em seus cotidianos, mostrando o tratamento dado pelo Estado a esses casos, desde o momento em que um indiv\u00edduo \u00e9 morto, passando pela investiga\u00e7\u00e3o da pol\u00edcia, at\u00e9 as fases de arquivamento ou julgamento por um tribunal do j\u00fari.", 
         "ticket": "https://www.ingresso.com/rio-de-janeiro/home/filmes/auto-de-resistencia", 
         "trailer": "QlEIOcD3Vzg"
@@ -549,7 +580,7 @@
         "countryOfOrigin": "Hungria", 
         "poster": "https://ingresso-a.akamaihd.net/img/cinema/cartaz/20603-cartaz.jpg", 
         "writer": "G\u00e1bor T. Sz\u00e1nt\u00f3, Ferenc T\u00f6r\u00f6k, Krisztina Eszterg\u00e1lyos (dramaturge)", 
-        "year": "2017", 
+        "premiereYear": "2017",
         "contentRating": "14", 
         "director": "Ferenc T\u00f6r\u00f6k", 
         "ratings": [
@@ -567,11 +598,12 @@
             }, 
             {
                 "source": "Rotten Tomatoes Audience", 
-                "value": "85%"
+                "value": "86%"
             }
         ], 
         "production": "Katapult Film", 
         "actors": "P\u00e9ter Rudolf, Bence Tasn\u00e1di, Tam\u00e1s Szab\u00f3 Kimmel, D\u00f3ra Sztarenki", 
+        "ingressoID": "20603", 
         "imdbID": "tt5815492", 
         "genre": "Drama", 
         "movieOutline": "Em um escaldante dia de agosto na Hungria em 1945, moradores se preparam para um casamento no vilarejo onde vivem. Enquanto isso, dois estranhos chegam \u00e0 esta\u00e7\u00e3o de trem local com misteriosas caixas etiquetadas com a palavra \u201cfragr\u00e2ncias\u201d. Os habitantes do povoado temem que os homens possam ser herdeiros dos judeus deportados da aldeia e que mais sobreviventes possam vir, representando uma amea\u00e7a \u00e0s propriedade e bens que adquiriram durante a guerra.", 
@@ -586,6 +618,7 @@
         "poster": "https://ingresso-a.akamaihd.net/img/cinema/cartaz/20147-cartaz.jpg", 
         "contentRating": "Consulte a classifica\u00e7\u00e3o", 
         "director": "Silvio Tendler", 
+        "ingressoID": "20147", 
         "movieOutline": "Este document\u00e1rio trata do fim do estado de bem-estar social e da interrup\u00e7\u00e3o dos sonhos de uma vida melhor para todos em um cen\u00e1rio onde a l\u00f3gica do capital financeiro inviabiliza qualquer alternativa de justi\u00e7a social. Milh\u00f5es de pessoas peregrinam em busca de melhores condi\u00e7\u00f5es de vida, enquanto o capital s\u00f3 aspira \u00e0 concentra\u00e7\u00e3o da riqueza em poucas m\u00e3os. Neste cen\u00e1rio de tens\u00f5es sociais, intelectuais lutam para transformar o mundo levantando temas como o fim dos direitos sociais, o desemprego, o mercado e o ressurgimento de movimentos extremistas.? Neste longa tamb\u00e9m ser\u00e1 exibido o curta \"Alcib\u00edades\".", 
         "ticket": "https://www.ingresso.com/rio-de-janeiro/home/filmes/dedo-na-ferida", 
         "trailer": "ri4kkw69Gk4"
@@ -597,6 +630,7 @@
         "poster": "https://ingresso-a.akamaihd.net/img/cinema/cartaz/21133-cartaz.jpg", 
         "contentRating": "L", 
         "director": "Luiz Bolognesi\n", 
+        "ingressoID": "21133", 
         "movieOutline": "Um poderoso paj\u00e9 passa a questionar sua f\u00e9 depois de seu primeiro contato com brancos, que julgam sua religi\u00e3o como demon\u00edaca. No entanto, a miss\u00e3o evangelizadora comandada por um pastor intolerante \u00e9 posta em cheque quando a morte passa a rondar a aldeia e a sensibilidade do \u00edndio em rela\u00e7\u00e3o aos esp\u00edritos da floresta mostra-se indispens\u00e1vel.", 
         "ticket": "https://www.ingresso.com/rio-de-janeiro/home/filmes/ex-paje", 
         "trailer": null
@@ -608,6 +642,7 @@
         "poster": "https://ingresso-a.akamaihd.net/img/cinema/cartaz/20271-cartaz.jpg", 
         "contentRating": "14", 
         "director": "Lucia Murat", 
+        "ingressoID": "20271", 
         "movieOutline": "Gloria \u00e9 ascensorista na UERJ. Ela foi criada e vive at\u00e9 hoje no Morro da Provid\u00eancia. Filha de um pai abusivo, quando se v\u00ea livre dele, passa para as m\u00e3os de um irm\u00e3o, chefe do tr\u00e1fico, que ainda se faz presente e exerce enorme influ\u00eancia sobre sua vida, mesmo estando preso. Camila \u00e9 uma jovem psicanalista portuguesa que est\u00e1 no Brasil para estudos de p\u00f3s-gradua\u00e7\u00e3o sobre viol\u00eancia tamb\u00e9m na UERJ, onde come\u00e7a a atender Gloria em seu consult\u00f3rio. \u00c9 estrangeira e deslocada em meio ao caos de uma cidade desigual, ruidosa, hostil e em constante transforma\u00e7\u00e3o. Um v\u00ednculo entre elas se inicia.", 
         "ticket": "https://www.ingresso.com/rio-de-janeiro/home/filmes/praca-paris", 
         "trailer": null
@@ -620,7 +655,7 @@
         "countryOfOrigin": "Brasil, Uruguai", 
         "poster": "https://ingresso-a.akamaihd.net/img/cinema/cartaz/20288-cartaz.jpg", 
         "writer": "Felipe Hirsch", 
-        "year": "2017", 
+        "premiereYear": "2017",
         "contentRating": "12", 
         "director": "Felipe Hirsch", 
         "ratings": [
@@ -631,6 +666,7 @@
         ], 
         "production": "N/A", 
         "actors": "Carla Quevedo, Daniel Hendler, Alejandro Awada, Alfredo Castro", 
+        "ingressoID": "20288", 
         "imdbID": "tt5110942", 
         "genre": "Drama", 
         "movieOutline": "A vida de um livreiro, melanc\u00f3lico e aspirante a escritor, \u00e9 abalada por uma enigm\u00e1tica mulher que rouba em sua livraria. Logo ele se enreda no mist\u00e9rio de um amor delirante e obsessivo. Este filme \u00e9 uma sondagem do efeito alienante do amor e do poder libertador do perd\u00e3o. Baseado na obra de Rodrigo Rey Rosa. Sele\u00e7\u00e3o Oficial do Festival de Locarno 2017.", 
@@ -645,6 +681,7 @@
         "poster": "https://ingresso-a.akamaihd.net/img/cinema/cartaz/21274-cartaz.jpg", 
         "contentRating": "Consulte a classifica\u00e7\u00e3o", 
         "director": "Mohamed Ben Attia", 
+        "ingressoID": "21274", 
         "movieOutline": "Na Tun\u00edsia rec\u00e9m-democr\u00e1tica, Hedi \u00e9 um rapaz de 25 anos cuja vida est\u00e1 sendo tra\u00e7ada pela m\u00e3e super protetora. Ap\u00e1tico e acomodado, ele trabalha em uma concession\u00e1ria de carros e est\u00e1 prestes a se casar com uma mo\u00e7a escolhida pela fam\u00edlia. Mas, ao ser escalado para uma viagem de trabalho, ele se apaixona pela funcion\u00e1ria de um resort, uma jovem de esp\u00edrito livre, e isso ir\u00e1 estremecer o planejado futuro que o espera.", 
         "ticket": "https://www.ingresso.com/rio-de-janeiro/home/filmes/a-amante", 
         "trailer": "iNQ2kanasDA"
@@ -656,6 +693,7 @@
         "poster": "https://ingresso-a.akamaihd.net/img/cinema/cartaz/21205-cartaz.jpg", 
         "contentRating": "12", 
         "director": "Val\u00e9rie Lemercier", 
+        "ingressoID": "21205", 
         "movieOutline": "Velha demais para o marido, demitida do emprego, Marie-Francine deve voltar a morar na casa dos pais... aos 50 anos! Apesar de infantilizada por eles, \u00e9 numa pequena lojinha de cigarros eletr\u00f4nicos da qual vai tomar conta, que ela vai conhecer Miguel que, sem ousar confessar, est\u00e1 na mesma situa\u00e7\u00e3o que ela.\n \nSem mais pretens\u00f5es do que fazer um filme ao mesmo tempo pessoal e popular, Val\u00e9rie Lemercier cuida dos detalhes da dire\u00e7\u00e3o como se polisse uma joia (...). Seu sucesso vem dessa abordagem de artes\u00e3, que se traduz tamb\u00e9m na aten\u00e7\u00e3o dada aos pap\u00e9is secund\u00e1rios, todos excelentes.", 
         "ticket": "https://www.ingresso.com/rio-de-janeiro/home/filmes/50-sao-os-novos-30", 
         "trailer": "NDahvgwaTNw"
@@ -667,6 +705,7 @@
         "poster": "https://ingresso-a.akamaihd.net/img/cinema/cartaz/21272-cartaz.jpg", 
         "contentRating": "16", 
         "director": "Naoko Ogigami", 
+        "ingressoID": "21272", 
         "movieOutline": "Depois de ser abandonada pela sua m\u00e3e, Tomo, uma pequena garotinha de 11 anos \u00e9 acolhida por seu tio, Makio, e pela sua namorada Rinko, que \u00e9 transexual. No primeiro momento a menina estranha a nova rela\u00e7\u00e3o familiar. Ao longo dos dias Rinko demonstra carinho e afeto por Tomo que acaba descobrindo o verdadeiro sentido de uma fam\u00edlia.", 
         "ticket": "https://www.ingresso.com/rio-de-janeiro/home/filmes/entre-lacos", 
         "trailer": null
@@ -678,6 +717,7 @@
         "poster": "https://ingresso-a.akamaihd.net/img/cinema/cartaz/21373-cartaz.jpg", 
         "contentRating": "Consulte a classifica\u00e7\u00e3o", 
         "director": "Niles Atallah", 
+        "ingressoID": "21373", 
         "movieOutline": "Em 1860, um aventureiro franc\u00eas de 35 anos partiu para Araucan\u00eda, uma regi\u00e3o in\u00f3spita no sul do Chile, com o intuito de fundar um reino. Ele partiu com o aval do chefe ind\u00edgena da regi\u00e3o, Ma\u00f1il. Por\u00e9m, ao chegar, descobre que Ma\u00f1il morreu. Sem seu apoio, \u00e9 preso pelo governo chileno, que v\u00ea no estrangeiro um perigo, e tem que justificar sua viagem.", 
         "ticket": "https://www.ingresso.com/rio-de-janeiro/home/filmes/rei", 
         "trailer": null
@@ -689,6 +729,7 @@
         "poster": "https://ingresso-a.akamaihd.net/img/cinema/cartaz/21467-cartaz.jpg", 
         "contentRating": "L", 
         "director": "Pedro Von Kr\u00fcger", 
+        "ingressoID": "21467", 
         "movieOutline": "O document\u00e1rio traz \u00e0 tona a hist\u00f3ria ferrovi\u00e1ria do Brasil. Pensando al\u00e9m dos trilhos e das locomotivas, discorre sobre momentos, lembran\u00e7as e registros de pessoas que vivenciaram e ainda vivem esse s\u00edmbolo da modernidadde e progresso no passado. O filme mostra n\u00e3o s\u00f3 a primeira ferrovia do Brasil, a Bar\u00e3o de Mau\u00e1, mas tamb\u00e9m outras abandonadas e deixadas de lado para se enferrujar.", 
         "ticket": "https://www.ingresso.com/rio-de-janeiro/home/filmes/estrada-de-sonhos", 
         "trailer": null
@@ -700,6 +741,7 @@
         "poster": "https://ingresso-a.akamaihd.net/img/cinema/cartaz/21468-cartaz.jpg", 
         "contentRating": "Consulte a classifica\u00e7\u00e3o", 
         "director": "", 
+        "ingressoID": "21468", 
         "movieOutline": "", 
         "ticket": "https://www.ingresso.com/rio-de-janeiro/home/filmes/bravas-donnas", 
         "trailer": null
@@ -712,7 +754,7 @@
         "countryOfOrigin": "Brasil", 
         "poster": "https://ingresso-a.akamaihd.net/img/cinema/cartaz/19401-cartaz.jpg", 
         "writer": "Jo\u00e3o Moreira Salles", 
-        "year": "2017", 
+        "premiereYear": "2017",
         "contentRating": "12", 
         "director": "Jo\u00e3o Moreira Salles", 
         "ratings": [
@@ -723,6 +765,7 @@
         ], 
         "production": "N/A", 
         "actors": "N/A", 
+        "ingressoID": "19401", 
         "imdbID": "tt6532954", 
         "genre": "Documentary", 
         "movieOutline": "Document\u00e1rio que re\u00fane imagens de momentos intensos na China, Fran\u00e7a, Tchecoslov\u00e1quia e Brasil da d\u00e9cada de 1960, foi escrito e dirigido por Jo\u00e3o Moreira Salles e estreia mundialmente no Festival Internacional de Cinema de Berlim de 2017. O filme apresenta registros da revolta estudantil francesa, da invas\u00e3o da Tchecoslov\u00e1quia, o enterro dos mortos em 1968 em Paris, Lyon, Praga e Rio de Janeiro, e da Grande Revolu\u00e7\u00e3o Cultural Prolet\u00e1ria. Narrado em primeira pessoa, o document\u00e1rio busca uma reflex\u00e3o sobre as imagens hist\u00f3ricas apresentadas, ao levantar discuss\u00f5es sobre quem faz as filmagens, como faz e as raz\u00f5es para isso. Al\u00e9m disso, tamb\u00e9m evidencia as diferen\u00e7as entre os registros e discute o que os arquivos revelam aos espectadores.", 
@@ -737,6 +780,7 @@
         "poster": "https://ingresso-a.akamaihd.net/img/cinema/cartaz/19829-cartaz.jpg", 
         "contentRating": "16", 
         "director": "Pierfrancesco Diliberto", 
+        "ingressoID": "19829", 
         "movieOutline": "Uma hist\u00f3ria de amor ambientada em julho de 1943, quando as for\u00e7as aliadas desembarcaram na Sic\u00edlia. Arturo ama Flora, filha de um dono de restaurante, mas ela foi prometida em casamento a um chefe da m\u00e1fia. Arturo decide se juntar \u00e0s for\u00e7as aliadas e voltar para a Sic\u00edlia, que ele havia deixado em busca de fortuna na Am\u00e9rica. No fundo, uma narrativa inteligente de como as rela\u00e7\u00f5es entre os Aliados e a m\u00e1fia durante a Segunda Guerra Mundial moldaram o destino da Sic\u00edlia nos anos vindouros.", 
         "ticket": "https://www.ingresso.com/rio-de-janeiro/home/filmes/em-guerra-por-amor", 
         "trailer": null
@@ -748,6 +792,7 @@
         "poster": "https://ingresso-a.akamaihd.net/img/cinema/cartaz/21334-cartaz.jpg", 
         "contentRating": "Consulte a classifica\u00e7\u00e3o", 
         "director": "Albert Dupontel", 
+        "ingressoID": "21334", 
         "movieOutline": "Em novembro de 1918, alguns dias antes do Armist\u00edcio, \u00c9douard P\u00e9ricourt salva a vida de Albert Maillard. Ambos n\u00e3o t\u00eam nada em comum, a n\u00e3o ser a guerra, e s\u00e3o obrigados a se unir para sobreviver. Anos depois, Albert e \u00c9douard decidem montar uma fraude nos monumentos aos mortos. Tamb\u00e9m planejam uma farsa para desmascarar o Tenente Pradelle, que tenta fazer fortuna com corpos das v\u00edtimas da guerra.", 
         "ticket": "https://www.ingresso.com/rio-de-janeiro/home/filmes/nos-vemos-no-paraiso", 
         "trailer": null
@@ -759,6 +804,7 @@
         "poster": "https://ingresso-a.akamaihd.net/img/cinema/cartaz/20974-cartaz.jpg", 
         "contentRating": "Consulte a classifica\u00e7\u00e3o", 
         "director": "Corin Hardy", 
+        "ingressoID": "20974", 
         "movieOutline": "Quando uma jovem freira de uma abadia reclusa da Rom\u00eania tira a pr\u00f3pria vida, um padre com um passado assombrado e uma novi\u00e7a prestes a fazer seus votos finais s\u00e3o enviados pelo Vaticano para investigar. Juntos descobrem o segredo profano da ordem. Arriscando n\u00e3o s\u00f3 suas vidas, mas sua f\u00e9 e suas pr\u00f3prias almas, eles confrontam uma for\u00e7a mal\u00e9vola na forma de uma freira demon\u00edaca, conforme a abadia se torna um terr\u00edvel campo de batalha entre os vivos e os amaldi\u00e7oados.", 
         "ticket": "https://www.ingresso.com/rio-de-janeiro/home/filmes/a-freira", 
         "trailer": null
@@ -770,6 +816,7 @@
         "poster": "https://ingresso-a.akamaihd.net/img/cinema/cartaz/20906-cartaz.jpg", 
         "contentRating": "Consulte a classifica\u00e7\u00e3o", 
         "director": "Rawson Marshall Thurber", 
+        "ingressoID": "20906", 
         "movieOutline": "Will Ford \u00e9 um veterano de guerra dos Estados Unidos e ex-l\u00edder da opera\u00e7\u00e3o de resgate do FBI, que atualmente \u00e9 respons\u00e1vel por avaliar a seguran\u00e7a de arranha-c\u00e9us. Em opera\u00e7\u00e3o na China, Ford encontra o mais seguro e alto dos pr\u00e9dios em chamas e \u00e9 considerado culpado por isso. O agente precisar\u00e1 encontrar os respons\u00e1veis pelo inc\u00eandio e, de alguma forma, limpar seu nome e resgatar sua fam\u00edlia que est\u00e1 presa no interior do edif\u00edcio, acima da linha do fogo.", 
         "ticket": "https://www.ingresso.com/rio-de-janeiro/home/filmes/arranha-ceu-coragem-sem-limite", 
         "trailer": "2PQrVmenL2U"
@@ -781,6 +828,7 @@
         "poster": "https://ingresso-a.akamaihd.net/img/cinema/cartaz/20973-cartaz.jpg", 
         "contentRating": "L", 
         "director": "Genndy Tartakovsky", 
+        "ingressoID": "20973", 
         "movieOutline": "Com o neto de Dracula, Dennis agora totalmente um vampiro, as coisas n\u00e3o poderia ser melhor no hotel! Mas quando um bilion\u00e1rio ganancioso amea\u00e7a destruir o hotel e substitu\u00ed-lo com o seu pr\u00f3prio resort ilha, Dennis e sua fam\u00edlia, bem como o resto dos monstros, bolam um plano para se certificar de que ele nunca consiga.", 
         "ticket": "https://www.ingresso.com/rio-de-janeiro/home/filmes/hotel-transilvania-3-ferias-monstruosas", 
         "trailer": "hPpXxHhTeJg"
@@ -793,17 +841,18 @@
         "countryOfOrigin": "", 
         "poster": "https://ingresso-a.akamaihd.net/img/cinema/cartaz/21455-cartaz.jpg", 
         "writer": "Jay Longino", 
-        "year": "2018", 
+        "premiereYear": "2018",
         "contentRating": "Consulte a classifica\u00e7\u00e3o", 
         "director": "Charles Stone III", 
         "ratings": [
             {
                 "source": "Rotten Tomatoes Audience", 
-                "value": "49%"
+                "value": "64%"
             }
         ], 
         "production": "Lionsgate", 
         "actors": "Nick Kroll, LilRel Howery, Shaquille O'Neal, Erica Ash", 
+        "ingressoID": "21455", 
         "imdbID": "tt7334528", 
         "genre": "Comedy", 
         "movieOutline": "Dax \u00e9 um grande f\u00e3 de basquete de rua, al\u00e9m disso, coordena seu pr\u00f3prio time amador. Ele decide gastar todas as suas economias para garantir a classifica\u00e7\u00e3o da equipe em um campeonato no Harlem, Nova York. No entanto, ap\u00f3s uma s\u00e9rie de eventos desastrosos, ele perde o controle do grupo e precisa urgentemente formar uma nova equipe. Para resolver o problema, ele recruta uma grande lenda do esporte, o incr\u00edvel Uncle Drew, que est\u00e1 aposentado h\u00e1 anos. Com um novo time repleto de setent\u00f5es, Dax acredita que finalmente conseguir\u00e1 alcan\u00e7ar uma vit\u00f3ria em sua carreira esportiva.", 
@@ -818,6 +867,7 @@
         "poster": "https://ingresso-a.akamaihd.net/img/cinema/cartaz/20099-cartaz.jpg", 
         "contentRating": "16", 
         "director": "Esmir Filho, Mariana Bastos", 
+        "ingressoID": "20099", 
         "movieOutline": "Caio e Mari s\u00e3o dois jovens vivendo uma rela\u00e7\u00e3o que vai al\u00e9m de qualquer defini\u00e7\u00e3o. Ao longo de dez anos, a trama transita entre tr\u00eas momentos marcantes onde seus desejos entram em conflito e sua rela\u00e7\u00e3o \u00e9 posta \u00e0 prova. O longa, desenvolvido a partir do curta hom\u00f4nimo de 2006, prop\u00f5e uma reflex\u00e3o sobre sexualidade, r\u00f3tulos e como o tempo constr\u00f3i e transforma os relacionamentos.? Neste longa tamb\u00e9m ser\u00e1 exibido o curta \"Vaca Profana\".", 
         "ticket": "https://www.ingresso.com/rio-de-janeiro/home/filmes/alguma-coisa-assim", 
         "trailer": "VQIZCTx8X2Q"
@@ -829,6 +879,7 @@
         "poster": "https://ingresso-a.akamaihd.net/img/cinema/cartaz/20990-cartaz.jpg", 
         "contentRating": "Consulte a classifica\u00e7\u00e3o", 
         "director": "Christopher McQuarrie", 
+        "ingressoID": "20990", 
         "movieOutline": "Em \u2018Miss\u00e3o Imposs\u00edvel: Efeito Fallout\u2018, Ethan Hunt e sua equipe do IMF, na companhia de aliados conhecidos, est\u00e3o em uma corrida contra o tempo depois que uma miss\u00e3o d\u00e1 errado.", 
         "ticket": "https://www.ingresso.com/rio-de-janeiro/home/filmes/missao-impossivel-efeito-fallout", 
         "trailer": "mlu8mMBNaqM"
@@ -840,6 +891,7 @@
         "poster": "https://ingresso-a.akamaihd.net/img/cinema/cartaz/21022-cartaz.jpg", 
         "contentRating": "Consulte a classifica\u00e7\u00e3o", 
         "director": "Aaron Horvath, Peter Rida Michail\n\n", 
+        "ingressoID": "21022", 
         "movieOutline": "Os Jovens percebem que os principais super-her\u00f3is que existem por a\u00ed est\u00e3o estrelando seus pr\u00f3prios filmes \u2013 quer dizer, todos, exceto os Jovens Tit\u00e3s! Por\u00e9m, o l\u00edder de fato do grupo, Robin, est\u00e1 determinado a resolver a situa\u00e7\u00e3o e ser visto como um astro, ao inv\u00e9s de um fiel escudeiro. Se ao menos eles conseguissem fazer com que o mais badalado diretor de Hollywood os notasse... Com algumas ideias malucas e uma m\u00fasica no cora\u00e7\u00e3o, os Jovens Tit\u00e3s partem para Tinsel Town, determinados a realizar seu sonho. Contudo, tudo d\u00e1 errado quando o grupo \u00e9 enganado por um supervil\u00e3o e seu plano insano para conquistar o planeta. A amizade e o esp\u00edrito guerreiro da equipe s\u00e3o abalados, colocando em risco o destino dos pr\u00f3prios Jovens Tit\u00e3s!", 
         "ticket": "https://www.ingresso.com/rio-de-janeiro/home/filmes/os-jovens-titas-em-acao-nos-cinemas", 
         "trailer": "a6nlqenqNVs"
@@ -851,6 +903,7 @@
         "poster": "https://ingresso-a.akamaihd.net/img/cinema/cartaz/20981-cartaz.jpg", 
         "contentRating": "Consulte a classifica\u00e7\u00e3o", 
         "director": "Ol Parker", 
+        "ingressoID": "20981", 
         "movieOutline": "Nos anos 70, a jovem Donna  viveu muitas aventuras com seu grupo musical Donna & The Dynamo, em parceria com suas amigas Tanya e Rosie, por\u00e9m, mais do que isso, Donna se apaixonou e viveu relacionamentos intensos com tr\u00eas homens diferentes: Harry , Sam  e Bill.", 
         "ticket": "https://www.ingresso.com/rio-de-janeiro/home/filmes/mamma-mia-la-vamos-nos-de-novo", 
         "trailer": "G26f-i7eqQY"
@@ -862,6 +915,7 @@
         "poster": "https://ingresso-a.akamaihd.net/img/cinema/cartaz/21298-cartaz.jpg", 
         "contentRating": "Consulte a classifica\u00e7\u00e3o", 
         "director": "Jennifer Yuh\n\n", 
+        "ingressoID": "21298", 
         "movieOutline": "Em um mundo apocal\u00edptico, onde uma pandemia mata a maioria das crian\u00e7as e adolescentes da Am\u00e9rica, alguns sobreviventes desenvolvem poderes sobrenaturais. Eles ent\u00e3o s\u00e3o tirados pelo governo de suas fam\u00edlias e enviados para campos de cust\u00f3dia. Ruby (Amandla Stenberg), uma das sobreviventes, consegue escapar com outras crian\u00e7as e sua vida muda para sempre.", 
         "ticket": "https://www.ingresso.com/rio-de-janeiro/home/filmes/mentes-sombrias", 
         "trailer": "SPbJHgYFiKI"
@@ -873,6 +927,7 @@
         "poster": "https://ingresso-a.akamaihd.net/img/cinema/cartaz/21275-cartaz.jpg", 
         "contentRating": "Consulte a classifica\u00e7\u00e3o", 
         "director": "Jon Turteltaub", 
+        "ingressoID": "21275", 
         "movieOutline": "No filme, um submarino de \u00e1guas profundas \u2013 parte de um programa internacional de observa\u00e7\u00e3o subaqu\u00e1tica \u2013 foi atacado por uma criatura gigantesca, que se pensava estar extinta. Agora, ele se encontra incapacitado no fundo da fossa mais profunda do Oceano Pac\u00edfico... com a tripula\u00e7\u00e3o presa dentro dele. Com o tempo se esgotando, o mergulhador especializado em resgates em \u00e1guas profundas Jonas Taylor \u00e9 recrutado por um vision\u00e1rio ocean\u00f3grafo chin\u00eas, contra a vontade de sua filha Suyin, para salvar a tripula\u00e7\u00e3o \u2013 e o pr\u00f3prio oceano \u2013 desta amea\u00e7a incontrol\u00e1vel: um tubar\u00e3o pr\u00e9-hist\u00f3rico com mais de 20 metros de comprimento conhecido como Megalodon. O que ningu\u00e9m poderia imaginar \u00e9 que, anos antes, Taylor j\u00e1 havia encontrado esta mesma criatura aterrorizante. Agora, junto com Suyin, ele deve confrontar seus medos e arriscar sua pr\u00f3pria vida para salvar todos os tripulantes... ficando frente a frente com o maior e mais poderoso predador de todos os tempos.", 
         "ticket": "https://www.ingresso.com/rio-de-janeiro/home/filmes/megatubarao", 
         "trailer": "28J9SMJkJdw"
@@ -884,6 +939,7 @@
         "poster": "https://ingresso-a.akamaihd.net/img/cinema/cartaz/21240-cartaz.jpg", 
         "contentRating": "Consulte a classifica\u00e7\u00e3o", 
         "director": "Susanna Fogel", 
+        "ingressoID": "21240", 
         "movieOutline": "As melhores amigas Audrey  e Morgan embarcam numa atrapalhada aventura de espionagem pela Europa depois que o ex-namorado (Justin Theroux) da primeira revela-se um agente secreto ca\u00e7ado internacionalmente por assassinos.", 
         "ticket": "https://www.ingresso.com/rio-de-janeiro/home/filmes/meu-ex-e-um-espiao", 
         "trailer": "U4PUKjjO1ts"
@@ -895,6 +951,7 @@
         "poster": "https://ingresso-a.akamaihd.net/img/cinema/cartaz/20255-cartaz.jpg", 
         "contentRating": "14", 
         "director": "Henrique Goldman", 
+        "ingressoID": "20255", 
         "movieOutline": "J\u00falio  \u00e9 um jovem que vive com a fam\u00edlia no interior do Brasil. Por lealdade ao tio C\u00edcero  J\u00falio mata pela primeira vez. Descobre ent\u00e3o uma perturbadora voca\u00e7\u00e3o que ir\u00e1 se transformar em of\u00edcio. Homem carinhoso, J\u00falio se casa com Maria . Religioso \u00e9 atormentado a cada disparo, mas segue adiante enquanto vive um mergulho num pa\u00eds sem lei, onde cada vida tem seu pre\u00e7o, mas nenhum valor. \"O Nome da Morte\" \u00e9 baseado em fatos reais.", 
         "ticket": "https://www.ingresso.com/rio-de-janeiro/home/filmes/o-nome-da-morte", 
         "trailer": "lYLERgIigCk"
@@ -907,12 +964,13 @@
         "countryOfOrigin": "Estados Unidos", 
         "poster": "https://ingresso-a.akamaihd.net/img/cinema/cartaz/21248-cartaz.jpg", 
         "writer": "Tom McCarthy (additional writing), A.A. Milne (characters), Alex Ross Perry (screenwriter), Allison Schroeder (additional writing)", 
-        "year": "2018", 
+        "premiereYear": "2018",
         "contentRating": "Consulte a classifica\u00e7\u00e3o", 
         "director": "Marc Forster", 
         "ratings": [], 
         "production": "N/A", 
         "actors": "Hayley Atwell, Ewan McGregor, Chris O'Dowd, Toby Jones", 
+        "ingressoID": "21248", 
         "imdbID": "tt4575576", 
         "genre": "Animation, Adventure, Comedy", 
         "movieOutline": "Christopher Robin  j\u00e1 n\u00e3o \u00e9 mais aquele jovem garoto que adorava embarcar em aventuras ao lado de Ursinho Pooh e outros ador\u00e1veis animais no Bosque dos 100 Acres. Agora um homem de neg\u00f3cios, ele cresceu e perdeu o rumo de sua vida, mas seus amigos de inf\u00e2ncia decidem embarcar no mundo real para ajud\u00e1-lo a se lembrar que aquele am\u00e1vel e divertido menino ainda existe em algum lugar.", 
@@ -927,6 +985,7 @@
         "poster": "https://ingresso-a.akamaihd.net/img/cinema/cartaz/20142-cartaz.jpg", 
         "contentRating": "14", 
         "director": "Julia Rezende", 
+        "ingressoID": "20142", 
         "movieOutline": "Solit\u00e1rios, frustrados e incapazes de realizar qualquer coisa que d\u00ea sentido \u00e0s suas vidas, Vladimir, Clivia, Regina e Primo armam um plano absurdo: sequestrar um milion\u00e1rio. Mas eles n\u00e3o t\u00eam nenhuma experi\u00eancia com crimes nem no\u00e7\u00e3o do que essa opera\u00e7\u00e3o pode envolver. Enquanto tomam as provid\u00eancias pr\u00e1ticas, revelam-se seus medos e ambi\u00e7\u00f5es.", 
         "ticket": "https://www.ingresso.com/rio-de-janeiro/home/filmes/como-e-cruel-viver-assim", 
         "trailer": "_QEySk3f0Gc"
@@ -938,6 +997,7 @@
         "poster": "https://ingresso-a.akamaihd.net/img/cinema/cartaz/21276-cartaz.jpg", 
         "contentRating": "Consulte a classifica\u00e7\u00e3o", 
         "director": "Gerard McMurray", 
+        "ingressoID": "21276", 
         "movieOutline": "Em 2018, para diminuir o \u00edndice de criminalidade pelo resto do ano, os Novos Pais Fundadores da Am\u00e9rica testam uma teoria sociol\u00f3gica que permite agress\u00f5es por uma noite numa comunidade isolada. Mas quando a viol\u00eancia dos opressores se encontra com a f\u00faria dos marginalizados, o cont\u00e1gio explodir\u00e1 os limites do teste e se espalhar\u00e1 por toda a na\u00e7\u00e3o.", 
         "ticket": "https://www.ingresso.com/rio-de-janeiro/home/filmes/a-primeira-noite-de-crime", 
         "trailer": "z3qB6A33tYQ"
@@ -949,6 +1009,7 @@
         "poster": "https://ingresso-a.akamaihd.net/img/cinema/cartaz/21023-cartaz.jpg", 
         "contentRating": "Consulte a classifica\u00e7\u00e3o", 
         "director": "Sylvain White\n\n", 
+        "ingressoID": "21023", 
         "movieOutline": "Numa pequena cidade em Massachusetts, quadro adolescentes realizam um ritual para desmascarar a lenda do Slenderman. Quando uma delas desaparece, as outras come\u00e7am a desconfiar que ela era, de fato, a mais recente v\u00edtima da entidade.", 
         "ticket": "https://www.ingresso.com/rio-de-janeiro/home/filmes/slender-man-pesadelo-sem-rosto", 
         "trailer": "8FV4FEMrYpY"
@@ -961,7 +1022,7 @@
         "countryOfOrigin": "Estados Unidos", 
         "poster": "https://ingresso-a.akamaihd.net/img/cinema/cartaz/21046-cartaz.jpg", 
         "writer": "Ben Falcone, Melissa McCarthy", 
-        "year": "2018", 
+        "premiereYear": "2018",
         "contentRating": "Consulte a classifica\u00e7\u00e3o", 
         "director": "Ben Falcone", 
         "ratings": [
@@ -980,6 +1041,7 @@
         ], 
         "production": "New Line Cinema", 
         "actors": "Melissa McCarthy, Matt Walsh, Molly Gordon, Ben Falcone", 
+        "ingressoID": "21046", 
         "imdbID": "tt5619332", 
         "genre": "Comedy", 
         "movieOutline": "Quando o marido a abandona sem mais nem menos, a dedicada dona de casa Deanna transforma a tristeza da separa\u00e7\u00e3o em est\u00edmulo para recome\u00e7ar a vida e decide voltar para a universidade...e acaba escolhendo o mesmo curso e a mesma faculdade de sua filha, que n\u00e3o fica muito contente com a novidade. Mergulhando de cabe\u00e7a na experi\u00eancia, a cada vez mais franca e aberta Deanna \u2013 que agora prefere ser chamada de Dee Rock \u2013 abra\u00e7a a liberdade, a divers\u00e3o e os garotos das fraternidades universit\u00e1rias a sua pr\u00f3pria maneira, reencontrando-se consigo mesma em um ano de estudos inesperado at\u00e9 para ela mesma.", 
@@ -994,6 +1056,7 @@
         "poster": "https://ingresso-a.akamaihd.net/img/cinema/cartaz/21277-cartaz.jpg", 
         "contentRating": "Consulte a classifica\u00e7\u00e3o", 
         "director": "Cac\u00e1 Diegues\n\n", 
+        "ingressoID": "21277", 
         "movieOutline": "\u2018O Grande Circo M\u00edstico\u2018 conta a hist\u00f3ria de um grande amor entre um aristocrata e uma acrobata, juntamente com a saga da fam\u00edlia austr\u00edaca propriet\u00e1ria do Grande Circo Knieps, que vagava pelo mundo nas primeiras d\u00e9cadas do s\u00e9culo XX.", 
         "ticket": "https://www.ingresso.com/rio-de-janeiro/home/filmes/o-grande-circo-mistico", 
         "trailer": "9vhF-iIIC4I"
@@ -1005,6 +1068,7 @@
         "poster": "https://ingresso-a.akamaihd.net/img/cinema/cartaz/20942-cartaz.jpg", 
         "contentRating": "Consulte a classifica\u00e7\u00e3o", 
         "director": "Albert Hughes", 
+        "ingressoID": "20942", 
         "movieOutline": "Ap\u00f3s cair de um penhasco e se perder do seu grupo, um jovem precisa sobreviver em meio a paisagens selvagens e encontrar o caminho de casa. Atacado por uma matilha, ele consegue ferir um dos lobos, mas decide n\u00e3o matar o animal. O jovem cuida dele e os dois come\u00e7am uma rela\u00e7\u00e3o de amizade.", 
         "ticket": "https://www.ingresso.com/rio-de-janeiro/home/filmes/alfa", 
         "trailer": "xLCsspfVPCg"
@@ -1016,6 +1080,7 @@
         "poster": "https://ingresso-a.akamaihd.net/img/cinema/cartaz/20994-cartaz.jpg", 
         "contentRating": "Consulte a classifica\u00e7\u00e3o", 
         "director": "Karey Kirkpatrick", 
+        "ingressoID": "20994", 
         "movieOutline": "Um abomin\u00e1vel homem das neves est\u00e1 convencido de que as cria\u00e7\u00f5es indescrit\u00edveis conhecidas como \"humanos\" realmente existem.", 
         "ticket": "https://www.ingresso.com/rio-de-janeiro/home/filmes/pe-pequeno", 
         "trailer": "taymWOY_qBc"
@@ -1027,6 +1092,7 @@
         "poster": "https://ingresso-a.akamaihd.net/img/cinema/cartaz/21284-cartaz.jpg", 
         "contentRating": "Consulte a classifica\u00e7\u00e3o", 
         "director": "David Kerr\n\n", 
+        "ingressoID": "21284", 
         "movieOutline": "Rowan Atkinson retorna na pele do amado agente secreto atrapalhado Johnny English. Em sua nova aventura, ele precisa ser a \u00faltima salva\u00e7\u00e3o do servi\u00e7o secreto quando um ataque cibern\u00e9tico revela as identidades de todos os agentes do pa\u00eds. Tirado de sua aposentadoria, Johnny cai de volta na a\u00e7\u00e3o com a miss\u00e3o de achar o hacker por tr\u00e1s do ataque. Com poucas habilidades e m\u00e9todos anal\u00f3gicos, Johnny English precisa superar os desafios do mundo tecnol\u00f3gico para fazer da miss\u00e3o um sucesso.", 
         "ticket": "https://www.ingresso.com/rio-de-janeiro/home/filmes/johnny-english-3-0", 
         "trailer": "2yeWLryV_Gw"
@@ -1038,6 +1104,7 @@
         "poster": "https://ingresso-a.akamaihd.net/img/cinema/cartaz/20975-cartaz.jpg", 
         "contentRating": "Consulte a classifica\u00e7\u00e3o", 
         "director": "Ruben Fleischer", 
+        "ingressoID": "20975", 
         "movieOutline": "Nos estranhos p\u00e2ntanos no sul da Louisiana, um grupo de adolescentes tenta descobrir a verdade sobre a misteriosa morte de um amigo. O que eles encontram \u00e9 uma for\u00e7a maligna mais mortal do que se poderia imaginar, e agora s\u00e3o eles que lutam por suas pr\u00f3prias vidas.", 
         "ticket": "https://www.ingresso.com/rio-de-janeiro/home/filmes/venom", 
         "trailer": "EQxCycVTfcU"
@@ -1049,6 +1116,7 @@
         "poster": "https://ingresso-a.akamaihd.net/img/cinema/cartaz/20216-cartaz.jpg", 
         "contentRating": "Consulte a classifica\u00e7\u00e3o", 
         "director": "Johnny Ara\u00fajo, Gustavo Bonaf\u00e9", 
+        "ingressoID": "20216", 
         "movieOutline": "Como o encontro entre dois jovens que vendiam camisetas e fitas cassete no centro do Rio de Janeiro para se sustentar p\u00f4de dar origem a uma das bandas mais populares do Brasil na d\u00e9cada de 1990? O filme narra esse momento transformador na vida de Marcelo - futuramente, conhecido como Marcelo D2 - e Skunk, que culminou na forma\u00e7\u00e3o do Planet Hemp. Reprimidos por uma sociedade preconceituosa, os dois fizeram da m\u00fasica um grito de alerta e de resist\u00eancia, conquistando cora\u00e7\u00f5es e mentes de toda uma gera\u00e7\u00e3o.", 
         "ticket": "https://www.ingresso.com/rio-de-janeiro/home/filmes/legalize-ja", 
         "trailer": null
@@ -1061,12 +1129,13 @@
         "countryOfOrigin": "Estados Unidos", 
         "poster": "https://ingresso-a.akamaihd.net/img/cinema/cartaz/21355-cartaz.jpg", 
         "writer": "Rudyard Kipling (based on the novel by), Callie Kloves (screenplay)", 
-        "year": "2018", 
+        "premiereYear": "2018",
         "contentRating": "Consulte a classifica\u00e7\u00e3o", 
         "director": "Andy Serkis", 
         "ratings": [], 
         "production": "Warner Bros. Pictures", 
         "actors": "Cate Blanchett, Benedict Cumberbatch, Andy Serkis, Christian Bale", 
+        "ingressoID": "21355", 
         "imdbID": "tt2388771", 
         "genre": "Adventure, Drama, Family", 
         "movieOutline": "Criado por uma alcateia em meio \u00e0s florestas da \u00cdndia, Mogli (Rohan Chand) vive com os animais da selva e conta com a amizade do urso Baloo (Andy Serkis) e da pantera Bagheera (Christian Bale). Ele \u00e9 aceito por todos os animais, exceto pelo temido tigre Shere Khan (Benedict Cumberbach). Quando Mogli se defronta com suas origens humanas, perigos maiores do que a rixa com Shere Khan podem surgir.", 
@@ -1082,12 +1151,13 @@
         "countryOfOrigin": "Brasil", 
         "poster": "https://ingresso-a.akamaihd.net/img/cinema/cartaz/7544-cartaz.jpg", 
         "writer": "Guilherme de Almeida Prado", 
-        "year": "2015", 
+        "premiereYear": "2015",
         "contentRating": "L", 
         "director": "Guilherme de Almeida Prado", 
         "ratings": [], 
         "production": "N/A", 
         "actors": "N/A", 
+        "ingressoID": "7544", 
         "imdbID": "tt4433630", 
         "genre": "Drama", 
         "movieOutline": "Uma jornalista, em busca de um furo de reportagem, tenta descobrir os segredos e desmascarar um homem chamado Elias, que tem alcan\u00e7ado milagres no sert\u00e3o do nordeste brasileiro. Em uma luta do bem contra o mal, ela ir\u00e1 ouvir hist\u00f3rias que fazem refer\u00eancias a passagens b\u00edblicas dos profetas Elias e Eliseu e a far\u00e3o conhecer A Palavra, mudar suas cren\u00e7as e alcan\u00e7ar um grande milagre.", 
@@ -1103,12 +1173,13 @@
         "countryOfOrigin": "Estados Unidos", 
         "poster": "https://ingresso-a.akamaihd.net/img/cinema/cartaz/21301-cartaz.jpg", 
         "writer": "Simon Beaufoy (screenplay), E.T.A. Hoffmann (based on the story \"The Nutcracker and the Mouse King\" by), Ashleigh Powell (screenplay and story)", 
-        "year": "2018", 
+        "premiereYear": "2018",
         "contentRating": "12", 
         "director": "Lasse Hallstr\u00f6m", 
         "ratings": [], 
         "production": "Disney", 
         "actors": "Keira Knightley, Eugenio Derbez, Matthew Macfadyen, Helen Mirren", 
+        "ingressoID": "21301", 
         "imdbID": "tt5523010", 
         "genre": "Adventure, Family, Fantasy", 
         "movieOutline": "A hist\u00f3ria acompanha uma garota de 12 anos que, ao lado de seus dois irm\u00e3os, recebe de presente um soldadinho de chumbo. O brinquedo ganha vida e coloca as crian\u00e7as no meio de uma guerra com um rei rato de sete cabe\u00e7as e seu ex\u00e9rcito de roedores.", 
@@ -1123,6 +1194,7 @@
         "poster": "https://ingresso-a.akamaihd.net/img/cinema/cartaz/21285-cartaz.jpg", 
         "contentRating": "Consulte a classifica\u00e7\u00e3o", 
         "director": "Jon M. Chu\n\n", 
+        "ingressoID": "21285", 
         "movieOutline": "O filme segue os passos da nova-iorquina Rachel Chu em sua viagem a Singapura para acompanhar o namorado Nick Young, com quem tem um relacionamento de longa data, \u00e0 festa de casamento do melhor amigo dele. Animada com sua primeira visita \u00e0 \u00c1sia, mas tamb\u00e9m um pouco nervosa por conhecer a fam\u00edlia de Nick, Rachel est\u00e1 totalmente despreparada para lidar com alguns detalhes importantes que Nick `esqueceu\u00b4 de contar sobre a vida dele. A verdade \u00e9 que Nick n\u00e3o apenas \u00e9 o herdeiro de uma das fam\u00edlias mais ricas como tamb\u00e9m um dos solteir\u00f5es mais cobi\u00e7ados do pa\u00eds. Como namorada de Nick, \u00e9 como se Rachel tivesse um alvo pintado em suas costas bem na mira de invejosas socialites e, pior ainda, da pr\u00f3pria m\u00e3e de Nick (Yeoh), que desaprova o namoro. Muito em breve vai ficar cada vez mais claro que, embora dinheiro n\u00e3o compre amor, pode definitivamente complicar a vida.", 
         "ticket": "https://www.ingresso.com/rio-de-janeiro/home/filmes/podres-de-ricos", 
         "trailer": "kiHb5EgTTsk"
@@ -1135,12 +1207,13 @@
         "countryOfOrigin": "EUA", 
         "poster": "https://ingresso-a.akamaihd.net/img/cinema/cartaz/20540-cartaz.jpg", 
         "writer": "J.K. Rowling", 
-        "year": "2018", 
+        "premiereYear": "2018",
         "contentRating": "Consulte a classifica\u00e7\u00e3o", 
         "director": "David Yates", 
         "ratings": [], 
         "production": "Warner Bros. Pictures", 
         "actors": "Johnny Depp, Katherine Waterston, Zo\u00eb Kravitz, Ezra Miller", 
+        "ingressoID": "20540", 
         "imdbID": "tt4123430", 
         "genre": "Adventure, Family, Fantasy", 
         "movieOutline": "A segunda parte da trilogia inspirada no livro hom\u00f4nimo de J.K. Rowling, acompanha as aventuras de Newt Scamander que busca conhecer mais sobre criaturas fant\u00e1sticas do mundo de magia. No entanto, mais detalhes sobre a trama ainda n\u00e3o foram revelados.", 
@@ -1155,6 +1228,7 @@
         "poster": "https://ingresso-a.akamaihd.net/img/cinema/cartaz/21307-cartaz.jpg", 
         "contentRating": "Consulte a classifica\u00e7\u00e3o", 
         "director": "Bob Persichetti, Peter Ramsey, Rodney Rothman", 
+        "ingressoID": "21307", 
         "movieOutline": "A trama mostra as aventuras de Miles Morales como Homem-Aranha.", 
         "ticket": "https://www.ingresso.com/rio-de-janeiro/home/filmes/homem-aranha-no-aranhaverso", 
         "trailer": "y_CrM0lbB6U"
@@ -1166,6 +1240,7 @@
         "poster": "https://ingresso-a.akamaihd.net/img/cinema/cartaz/21304-cartaz.jpg", 
         "contentRating": "Consulte a classifica\u00e7\u00e3o", 
         "director": "Rob Marshall\n\n", 
+        "ingressoID": "21304", 
         "movieOutline": "Mary Poppins est\u00e1 de volta para ajudar a pr\u00f3xima gera\u00e7\u00e3o da fam\u00edlia Banks a encontrar a alegria e a magia que est\u00e3o faltando em suas vidas ap\u00f3s passarem por uma perda pessoal.", 
         "ticket": "https://www.ingresso.com/rio-de-janeiro/home/filmes/o-retorno-de-mary-poppins", 
         "trailer": "_HQ2gk-k5yk"
@@ -1178,12 +1253,13 @@
         "countryOfOrigin": "Estados Unidos", 
         "poster": "https://ingresso-a.akamaihd.net/img/cinema/cartaz/20987-cartaz.jpg", 
         "writer": "Phil Johnston, Rich Moore (characters), Jim Reardon (head of story), Pamela Ribon", 
-        "year": "2018", 
+        "premiereYear": "2018",
         "contentRating": "Consulte a classifica\u00e7\u00e3o", 
         "director": "Phil Johnston, Rich Moore", 
         "ratings": [], 
         "production": "Walt Disney Animation Studios", 
         "actors": "John C. Reilly, Sarah Silverman, Jack McBrayer, Jane Lynch", 
+        "ingressoID": "20987", 
         "imdbID": "tt5848272", 
         "genre": "Animation, Adventure, Comedy", 
         "movieOutline": "6 anos ap\u00f3s os eventos de \"Detona Ralph\", Ralph e Vanellope, agora amigos, descobrem um roteador wi-fi no fliperama, o que os leva a uma nova aventura, com participa\u00e7\u00f5es de novos personagens ic\u00f4nicos de jogos, princesas cl\u00e1ssicas da Disney e at\u00e9 Star Wars.", 
@@ -1199,12 +1275,13 @@
         "countryOfOrigin": "EUA", 
         "poster": "https://ingresso-a.akamaihd.net/img/cinema/cartaz/20534-cartaz.jpg", 
         "writer": "Josh Boone (screenplay by), Knate Lee (screenplay by), Chris Claremont (based on the comics by), Bob McLeod (based on the comics by), Dave Cockrum (character created by: Magik)", 
-        "year": "2019", 
+        "premiereYear": "2019",
         "contentRating": "Consulte a classifica\u00e7\u00e3o", 
         "director": "Josh Boone", 
         "ratings": [], 
         "production": "N/A", 
         "actors": "Anya Taylor-Joy, Alice Braga, Maisie Williams, Antonio Banderas", 
+        "ingressoID": "20534", 
         "imdbID": "tt4682266", 
         "genre": "Action, Horror, Sci-Fi", 
         "movieOutline": "Cinco jovens mutantes, ainda descobrindo seus poderes, lutam para fugir dos seus pecados do passado e para se salvarem, enquanto s\u00e3o mantidos contra sua vontade numa instala\u00e7\u00e3o psiqui\u00e1trica.", 

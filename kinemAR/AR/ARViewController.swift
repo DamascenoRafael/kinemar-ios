@@ -23,6 +23,10 @@ class ARViewController: UIViewController, ARSCNViewDelegate {
         return sceneView.session
     }
     
+    override var prefersStatusBarHidden: Bool {
+        return true
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         

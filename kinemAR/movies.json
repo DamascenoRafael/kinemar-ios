@@ -13,7 +13,7 @@
         "ratings": [
             {
                 "source": "IMDb", 
-                "value": "8.4/10"
+                "value": "84"
             }, 
             {
                 "source": "Rotten Tomatoes Critics", 
@@ -21,7 +21,7 @@
             }, 
             {
                 "source": "Metacritic", 
-                "value": "80/100"
+                "value": "80"
             }, 
             {
                 "source": "Rotten Tomatoes Audience", 
@@ -74,7 +74,7 @@
         "ratings": [
             {
                 "source": "IMDb", 
-                "value": "6.7/10"
+                "value": "67"
             }, 
             {
                 "source": "Rotten Tomatoes Critics", 
@@ -82,7 +82,7 @@
             }, 
             {
                 "source": "Metacritic", 
-                "value": "51/100"
+                "value": "51"
             }
         ], 
         "production": "Universal Pictures", 
@@ -121,7 +121,7 @@
         "ratings": [
             {
                 "source": "IMDb", 
-                "value": "4.7/10"
+                "value": "47"
             }, 
             {
                 "source": "Rotten Tomatoes Critics", 
@@ -129,7 +129,7 @@
             }, 
             {
                 "source": "Metacritic", 
-                "value": "47/100"
+                "value": "47"
             }, 
             {
                 "source": "Rotten Tomatoes Audience", 
@@ -184,7 +184,7 @@
         "ratings": [
             {
                 "source": "IMDb", 
-                "value": "6.3/10"
+                "value": "63"
             }, 
             {
                 "source": "Rotten Tomatoes Critics", 
@@ -192,7 +192,7 @@
             }, 
             {
                 "source": "Metacritic", 
-                "value": "53/100"
+                "value": "53"
             }, 
             {
                 "source": "Rotten Tomatoes Audience", 
@@ -223,7 +223,7 @@
         "ratings": [
             {
                 "source": "IMDb", 
-                "value": "8.1/10"
+                "value": "81"
             }, 
             {
                 "source": "Rotten Tomatoes Critics", 
@@ -231,7 +231,7 @@
             }, 
             {
                 "source": "Metacritic", 
-                "value": "66/100"
+                "value": "66"
             }, 
             {
                 "source": "Rotten Tomatoes Audience", 
@@ -262,7 +262,7 @@
         "ratings": [
             {
                 "source": "IMDb", 
-                "value": "4.8/10"
+                "value": "48"
             }, 
             {
                 "source": "Rotten Tomatoes Critics", 
@@ -270,7 +270,7 @@
             }, 
             {
                 "source": "Metacritic", 
-                "value": "36/100"
+                "value": "36"
             }, 
             {
                 "source": "Rotten Tomatoes Audience", 
@@ -407,7 +407,7 @@
         "ratings": [
             {
                 "source": "IMDb", 
-                "value": "7.2/10"
+                "value": "72"
             }, 
             {
                 "source": "Rotten Tomatoes Critics", 
@@ -415,7 +415,7 @@
             }, 
             {
                 "source": "Metacritic", 
-                "value": "62/100"
+                "value": "62"
             }
         ], 
         "production": "Walt Disney Pictures", 
@@ -586,7 +586,7 @@
         "ratings": [
             {
                 "source": "IMDb", 
-                "value": "7.6/10"
+                "value": "76"
             }, 
             {
                 "source": "Rotten Tomatoes Critics", 
@@ -594,7 +594,7 @@
             }, 
             {
                 "source": "Metacritic", 
-                "value": "80/100"
+                "value": "80"
             }, 
             {
                 "source": "Rotten Tomatoes Audience", 
@@ -661,7 +661,7 @@
         "ratings": [
             {
                 "source": "IMDb", 
-                "value": "6.3/10"
+                "value": "63"
             }
         ], 
         "production": "N/A", 
@@ -760,7 +760,7 @@
         "ratings": [
             {
                 "source": "IMDb", 
-                "value": "8.5/10"
+                "value": "85"
             }
         ], 
         "production": "N/A", 
@@ -1028,7 +1028,7 @@
         "ratings": [
             {
                 "source": "IMDb", 
-                "value": "5.4/10"
+                "value": "54"
             }, 
             {
                 "source": "Rotten Tomatoes Critics", 
@@ -1036,7 +1036,7 @@
             }, 
             {
                 "source": "Metacritic", 
-                "value": "46/100"
+                "value": "46"
             }
         ], 
         "production": "New Line Cinema", 

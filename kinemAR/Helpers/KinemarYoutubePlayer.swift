@@ -17,9 +17,8 @@ class KinemarYoutubePlayer {
     
     func present(videoIdentifier: String) {
         let playerVC = AVPlayerViewController()
-        if let topViewController = UIApplication.shared.keyWindow?.rootViewController {
-            topViewController.present(playerVC, animated: true, completion: nil)
-        }
+        let topViewController = UIApplication.shared.topViewController()
+        topViewController.present(playerVC, animated: true, completion: nil)
         
         XCDYouTubeClient.default().getVideoWithIdentifier(videoIdentifier) { [unowned playerVC] (video: XCDYouTubeVideo?, error: Error?) in
             if let streamURLs = video?.streamURLs,

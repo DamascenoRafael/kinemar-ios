@@ -13,6 +13,7 @@
 		7142359020DAADDC00385E7C /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7142358F20DAADDC00385E7C /* Movie.swift */; };
 		714A4A9F20EA8AEF005306A2 /* MovieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 714A4A9E20EA8AEF005306A2 /* MovieViewController.swift */; };
 		714A4AA120EA987E005306A2 /* KinemarTicketPurchase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 714A4AA020EA987E005306A2 /* KinemarTicketPurchase.swift */; };
+		7164D38920EAFE0B00BE7B46 /* UIApplication+topViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7164D38820EAFE0B00BE7B46 /* UIApplication+topViewController.swift */; };
 		717EDDB720E9A8C300422DE3 /* KinemarYoutubePlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 717EDDB620E9A8C300422DE3 /* KinemarYoutubePlayer.swift */; };
 		7184A64C20D0D315008F1F6B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7184A64B20D0D315008F1F6B /* Assets.xcassets */; };
 		71AB634820D0A33600C48060 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71AB634720D0A33600C48060 /* AppDelegate.swift */; };
@@ -37,6 +38,7 @@
 		7142358F20DAADDC00385E7C /* Movie.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
 		714A4A9E20EA8AEF005306A2 /* MovieViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieViewController.swift; sourceTree = "<group>"; };
 		714A4AA020EA987E005306A2 /* KinemarTicketPurchase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KinemarTicketPurchase.swift; sourceTree = "<group>"; };
+		7164D38820EAFE0B00BE7B46 /* UIApplication+topViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIApplication+topViewController.swift"; sourceTree = "<group>"; };
 		717EDDB620E9A8C300422DE3 /* KinemarYoutubePlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KinemarYoutubePlayer.swift; sourceTree = "<group>"; };
 		7184A64B20D0D315008F1F6B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		71AB634420D0A33600C48060 /* kinemAR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kinemAR.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -100,6 +102,7 @@
 			isa = PBXGroup;
 			children = (
 				71254C3720E719EB009F4518 /* SCNNode+switchPosition.swift */,
+				7164D38820EAFE0B00BE7B46 /* UIApplication+topViewController.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -323,6 +326,7 @@
 				7142359020DAADDC00385E7C /* Movie.swift in Sources */,
 				71C7480820E9E744002A54BF /* WebViewController.swift in Sources */,
 				71B2814D20E94A6C005F7816 /* MovieService.swift in Sources */,
+				7164D38920EAFE0B00BE7B46 /* UIApplication+topViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

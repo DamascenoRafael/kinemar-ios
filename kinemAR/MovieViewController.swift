@@ -21,6 +21,7 @@ class MovieViewController: UIViewController {
         super.viewDidLoad()
         
         configureView(for: movie)
+        configureBackButton()
     }
     
     func configureView(for movie: Movie) {
@@ -36,6 +37,13 @@ class MovieViewController: UIViewController {
         directorLabel.text          = movie.director!
         actorsLabel.text            = movie.actors!
         movieOutlineLabel.text      = movie.movieOutline!
+    }
+    
+    func configureBackButton() {
+        if navigationController!.viewControllers.count == 1 {
+            let button = UIBarButtonItem(title: "Voltar", style: .plain, target: self, action: #selector(returnToHomeScreen(_:)))
+            navigationItem.leftBarButtonItem = button
+        }
     }
     
     
@@ -56,9 +64,12 @@ class MovieViewController: UIViewController {
     // MARK: - Navigation
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        if let navVC = segue.destination as? UINavigationController,
-            let webVC = navVC.viewControllers.first as? WebViewController {
+        if let webVC = segue.destination as? WebViewController {
             webVC.ticketURLString = sender as? String
         }
+    }
+    
+    @IBAction func returnToHomeScreen(_ sender: Any) {
+        self.dismiss(animated: true, completion: nil)
     }
 }

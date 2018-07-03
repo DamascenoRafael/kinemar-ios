@@ -9,6 +9,22 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="7Pm-NQ-DlU">
+            <objects>
+                <navigationController id="Exg-sh-3Df" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="nkD-x8-pR4">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="1ji-d9-YhP" kind="relationship" relationship="rootViewController" id="Z2I-ez-pjh"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7ja-3L-IH9" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="961" y="-685"/>
+        </scene>
         <!--Status View Controller-->
         <scene sceneID="5Tw-8P-01p">
             <objects>
@@ -164,6 +180,7 @@
                         <outlet property="sceneView" destination="E6c-py-dvH" id="Gr4-Uw-Z4A"/>
                         <segue destination="iHa-0f-XcN" kind="show" identifier="showHistory" id="AJQ-6y-CHc"/>
                         <segue destination="lmj-qH-2Wn" kind="show" identifier="showTicketPurchase" id="isb-Qs-bb3"/>
+                        <segue destination="Exg-sh-3Df" kind="show" identifier="showMovieDetail" id="wMd-6P-w4U"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SZV-WD-TEh" sceneMemberID="firstResponder"/>
@@ -286,13 +303,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="sNm-3Y-iPg"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Ingresso.com" id="CFe-k0-RT6">
-                        <barButtonItem key="leftBarButtonItem" title="Voltar" id="JDk-Qb-yUz">
-                            <connections>
-                                <action selector="returnToHomeScreen:" destination="6tq-He-6yh" id="tBl-XK-gpk"/>
-                            </connections>
-                        </barButtonItem>
-                    </navigationItem>
+                    <navigationItem key="navigationItem" title="Ingresso.com" id="CFe-k0-RT6"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gLM-k1-NyP" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -581,6 +592,7 @@
                         <outlet property="rtAudienceLabel" destination="Ql2-nM-Nlw" id="6ZS-h4-Gg3"/>
                         <outlet property="rtCriticsLabel" destination="XN1-9s-H4h" id="TVz-1r-mRa"/>
                         <outlet property="titleLabel" destination="osd-Ui-iNu" id="IXy-eh-4M3"/>
+                        <segue destination="6tq-He-6yh" kind="show" identifier="showTicketPurchase" id="CeP-7g-sqH"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="o63-BE-C44" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -619,4 +631,8 @@
         <image name="ticketIc" width="20" height="20"/>
         <image name="tomatoIc" width="20" height="20"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="yQB-l4-xi0"/>
+        <segue reference="CeP-7g-sqH"/>
+    </inferredMetricsTieBreakers>
 </document>

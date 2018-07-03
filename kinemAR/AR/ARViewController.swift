@@ -300,6 +300,11 @@ class ARViewController: UIViewController, ARSCNViewDelegate {
                     return
                 }
             }
+        case "info":
+            NSLog("showMovieDetail")
+            MovieService.instance.getMovie(movieTitle) { movie in
+                self.performSegue(withIdentifier: "showMovieDetail", sender: movie)
+            }
         default:
             NSLog("Action not registered for node")
         }
@@ -310,8 +315,17 @@ class ARViewController: UIViewController, ARSCNViewDelegate {
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if let navVC = segue.destination as? UINavigationController,
-            let webVC = navVC.viewControllers.first as? WebViewController {
-            webVC.ticketURLString = sender as? String
+            let viewController = navVC.viewControllers.first {
+            switch segue.identifier {
+            case "showTicketPurchase":
+                let ticketVC = viewController as! WebViewController
+                ticketVC.ticketURLString = sender as? String
+            case "showMovieDetail":
+                let movieVC = viewController as! MovieViewController
+                movieVC.movie = sender as? Movie
+            default:
+                return
+            }
         }
     }
 }

@@ -18,6 +18,7 @@ class WebViewController: UIViewController, WKUIDelegate, WKNavigationDelegate {
         webView.uiDelegate = self
         webView.navigationDelegate = self
         
+        configureBackButton()
         loadPage(ticketURLString)
     }
     
@@ -27,6 +28,13 @@ class WebViewController: UIViewController, WKUIDelegate, WKNavigationDelegate {
         webView.rightAnchor.constraint(equalTo: view.rightAnchor).isActive = true
         webView.topAnchor.constraint(equalTo: view.topAnchor).isActive = true
         webView.bottomAnchor.constraint(equalTo: view.bottomAnchor).isActive = true
+    }
+    
+    func configureBackButton() {
+        if navigationController!.viewControllers.count == 1 {
+            let button = UIBarButtonItem(title: "Voltar", style: .plain, target: self, action: #selector(returnToHomeScreen(_:)))
+            navigationItem.leftBarButtonItem = button
+        }
     }
     
     func loadPage(_ urlString: String) {

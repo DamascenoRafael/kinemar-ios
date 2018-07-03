@@ -12,6 +12,11 @@ enum Position {
     case insideBottomRight
 }
 
+enum Side {
+    case left
+    case right
+}
+
 extension SCNNode {
     func switchPosition(to position: Position, imageAnchor: ARImageAnchor, plus gap: Float = 0) {
         let (min, max) = self.boundingBox
@@ -42,6 +47,23 @@ extension SCNNode {
         case .insideBottomRight:
             self.position.z = +Float(imageAnchor.referenceImage.physicalSize.height / 2) - halfWidth + gap
             self.position.x = +Float(imageAnchor.referenceImage.physicalSize.width / 2) - halfWidth + gap
+        }
+    }
+    
+    func switchPosition(to position: Side, nodeReference node: SCNNode, plus gap: Float = 0) {
+        let (selfMin, selfMax) = self.boundingBox
+        let halfWidth = abs(selfMax.x - selfMin.x) * self.scale.x / 2
+        
+        let (nodeMin, nodeMax) = node.boundingBox
+        let nodeHalfWidth = abs(nodeMax.x - nodeMin.x) * node.scale.x / 2
+        
+        switch position {
+        case .left:
+            self.position.z = node.position.z
+            self.position.x = node.position.x - nodeHalfWidth - halfWidth - gap
+        case .right:
+            self.position.z = node.position.z
+            self.position.x = node.position.x + nodeHalfWidth + halfWidth + gap
         }
     }
 }

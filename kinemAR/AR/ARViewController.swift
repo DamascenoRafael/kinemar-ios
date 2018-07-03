@@ -8,6 +8,7 @@ class ARViewController: UIViewController, ARSCNViewDelegate {
     @IBOutlet weak var blurView: UIVisualEffectView!
     
     let planeGap: Float = 0.03
+    let textGap: Float = 0.01
     
     /// The view controller that displays the status and "restart experience" UI.
     lazy var statusViewController: StatusViewController = {
@@ -108,47 +109,70 @@ class ARViewController: UIViewController, ARSCNViewDelegate {
     func renderer(_ renderer: SCNSceneRenderer, didAdd node: SCNNode, for anchor: ARAnchor) {
         guard let imageAnchor = anchor as? ARImageAnchor else { return }
         let referenceImage = imageAnchor.referenceImage
+        let movieTitle = referenceImage.name!
+        
+        node.name = movieTitle
         
         updateQueue.async {
             
-            let movieTitle = referenceImage.name!
-            node.name = movieTitle
-            
-            let playButton = self.playButtonNode
-            
             let info = self.infoNode
             info.switchPosition(to: .insideBottomRight, imageAnchor: imageAnchor)
-            
-            let ticket = self.ticketNode
-            ticket.switchPosition(to: .top, imageAnchor: imageAnchor)
-            
-            //let tomato = self.tomatoNode
-            let tomato = self.badTomatoNode
-            tomato.switchPosition(to: .bottomRight, imageAnchor: imageAnchor)
-            
-            //let popcorn = self.popcornNode
-            let popcorn = self.badPopcornNode
-            popcorn.switchPosition(to: .topRight, imageAnchor: imageAnchor)
-            
-            let imdb = self.imdbNode
-            imdb.switchPosition(to: .topLeft, imageAnchor: imageAnchor)
-            
-            let metacritic = self.metacriticNode
-            metacritic.switchPosition(to: .bottomLeft, imageAnchor: imageAnchor)
-            
-            node.addChildNode(imdb)
-            node.addChildNode(metacritic)
-            node.addChildNode(playButton)
-            node.addChildNode(ticket)
-            node.addChildNode(tomato)
-            node.addChildNode(popcorn)
             node.addChildNode(info)
+            
+            MovieService.instance.getMovie(movieTitle, success: { movie in
+                if movie.trailer != nil {
+                    let playButton = self.playButtonNode
+                    node.addChildNode(playButton)
+                }
+                
+                if movie.ticket != nil {
+                    let ticket = self.ticketNode
+                    ticket.switchPosition(to: .top, imageAnchor: imageAnchor)
+                    node.addChildNode(ticket)
+                }
+                
+                if let rating = movie.rating(from: .rottenTomatoesAudience) {
+                    let popcorn = Int(rating.dropLast())! < 60 ? self.badPopcornNode : self.popcornNode
+                    popcorn.switchPosition(to: .topRight, imageAnchor: imageAnchor)
+                    node.addChildNode(popcorn)
+                    let textNode = self.createTextNode(string: rating)
+                    textNode.switchPosition(to: .right, nodeReference: popcorn, plus: self.textGap)
+                    node.addChildNode(textNode)
+                    
+                }
+                
+                if let rating = movie.rating(from: .rottenTomatoesCritics) {
+                    let tomato = Int(rating.dropLast())! < 60 ? self.badTomatoNode : self.tomatoNode
+                    tomato.switchPosition(to: .bottomRight, imageAnchor: imageAnchor)
+                    node.addChildNode(tomato)
+                    let textNode = self.createTextNode(string: rating)
+                    textNode.switchPosition(to: .right, nodeReference: tomato, plus: self.textGap)
+                    node.addChildNode(textNode)
+                }
+                
+                if let rating = movie.rating(from: .imdb) {
+                    let imdb = self.imdbNode
+                    imdb.switchPosition(to: .topLeft, imageAnchor: imageAnchor)
+                    node.addChildNode(imdb)
+                    let textNode = self.createTextNode(string: rating)
+                    textNode.switchPosition(to: .left, nodeReference: imdb, plus: self.textGap)
+                    node.addChildNode(textNode)
+                }
+                
+                if let rating = movie.rating(from: .metacritic) {
+                    let metacritic = self.metacriticNode
+                    metacritic.switchPosition(to: .bottomLeft, imageAnchor: imageAnchor)
+                    node.addChildNode(metacritic)
+                    let textNode = self.createTextNode(string: rating)
+                    textNode.switchPosition(to: .left, nodeReference: metacritic, plus: self.textGap)
+                    node.addChildNode(textNode)
+                }
+            })
         }
         
         DispatchQueue.main.async {
-            let imageName = referenceImage.name ?? ""
             self.statusViewController.cancelAllScheduledMessages()
-            self.statusViewController.showMessage("Detected image “\(imageName)”")
+            self.statusViewController.showMessage("Detected “\(movieTitle)”")
         }
     }
     
@@ -163,7 +187,7 @@ class ARViewController: UIViewController, ARSCNViewDelegate {
         
         let textNode = SCNNode(geometry: text)
         
-        let fontSize = Float(0.025)
+        let fontSize = Float(0.02)
         textNode.scale = SCNVector3(fontSize, fontSize, fontSize)
         
         let (min, max) = text.boundingBox
@@ -224,7 +248,7 @@ class ARViewController: UIViewController, ARSCNViewDelegate {
         guard let scene = SCNScene(named: "art.scnassets/playButton/playButton.scn"),
             let node = scene.rootNode.childNode(withName: "playButton", recursively: false) else { return SCNNode() }
         
-        let scaleFactor  = 0.02
+        let scaleFactor  = 0.015
         node.scale = SCNVector3(scaleFactor, scaleFactor, scaleFactor)
         node.position.y = planeGap
         node.opacity = 0.8
@@ -301,7 +325,7 @@ class ARViewController: UIViewController, ARSCNViewDelegate {
                 }
             }
         case "info":
-            NSLog("showMovieDetail")
+            NSLog("## movie detail")
             MovieService.instance.getMovie(movieTitle) { movie in
                 self.performSegue(withIdentifier: "showMovieDetail", sender: movie)
             }

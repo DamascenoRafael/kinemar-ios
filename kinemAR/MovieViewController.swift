@@ -9,13 +9,34 @@ class MovieViewController: UIViewController {
     @IBOutlet weak var originalTitleLabel: UILabel!
     @IBOutlet weak var infoLabel: UILabel!
     @IBOutlet weak var locationLabel: UILabel!
-    @IBOutlet weak var rtAudienceLabel: UILabel!
-    @IBOutlet weak var rtCriticsLabel: UILabel!
+    
+    @IBOutlet weak var rtAudienceLabel: UILabel! {
+        didSet {
+            if let rating = Int(rtAudienceLabel.text!.dropLast()) {
+                let popcornIcon = rating < 60 ? "badPopcornIc" : "popcornIc"
+                rtAudienceImageView.image = UIImage(named: popcornIcon)
+            }
+        }
+    }
+    
+    @IBOutlet weak var rtCriticsLabel: UILabel! {
+        didSet {
+            if let rating = Int(rtCriticsLabel.text!.dropLast()) {
+                let tomatoIcon = rating < 60 ? "badTomatoIc" : "tomatoIc"
+                rtCriticsImageView.image = UIImage(named: tomatoIcon)
+            }
+        }
+    }
+    
     @IBOutlet weak var imdbScoreLabel: UILabel!
     @IBOutlet weak var metacritcScoreLabel: UILabel!
     @IBOutlet weak var directorLabel: UILabel!
     @IBOutlet weak var actorsLabel: UILabel!
     @IBOutlet weak var movieOutlineLabel: UILabel!
+    @IBOutlet weak var rtAudienceImageView: UIImageView!
+    @IBOutlet weak var rtCriticsImageView: UIImageView!
+    @IBOutlet weak var trailerButton: UIButton!
+    @IBOutlet weak var ticketsButton: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -26,17 +47,23 @@ class MovieViewController: UIViewController {
     
     func configureView(for movie: Movie) {
         posterImageView.image       = UIImage(named: movie.title!)
-        titleLabel.text             = movie.title!
-        originalTitleLabel.text     = movie.originalTitle!
-        infoLabel.text              = String(format: "%@ | %@ | %@", movie.premiereYear!, movie.runtime!, movie.contentRating!)
-        locationLabel.text          = "" // TODO
+        titleLabel.text             = movie.title ?? "--"
+        originalTitleLabel.text     = movie.originalTitle ?? "--"
+        infoLabel.text              = String(format: "%@  |  %@  |  Classificação: %@", movie.premiereYear ?? "--", movie.runtime ?? "--", movie.contentRating ?? "--")
+        // TODO
+        // locationLabel.text =
+        
         rtAudienceLabel.text        = movie.rating(from: .rottenTomatoesAudience) ?? "--"
         rtCriticsLabel.text         = movie.rating(from: .rottenTomatoesCritics) ?? "--"
-        imdbScoreLabel.text         = movie.rating(from: .imdb) ?? "--"
-        metacritcScoreLabel.text    = movie.rating(from: .metacritic) ?? "--"
-        directorLabel.text          = movie.director!
-        actorsLabel.text            = movie.actors!
-        movieOutlineLabel.text      = movie.movieOutline!
+        imdbScoreLabel.text         = String(format: "%@ / 100", movie.rating(from: .imdb) ?? "--")
+        metacritcScoreLabel.text    = String(format: "%@ / 100", movie.rating(from: .metacritic) ?? "--")
+        
+        directorLabel.text          = movie.director ?? "--"
+        actorsLabel.text            = movie.actors ?? "--"
+        movieOutlineLabel.text      = movie.movieOutline ?? "--"
+        
+        trailerButton.isHidden      = movie.trailer == nil
+        ticketsButton.isHidden      = movie.ticket == nil
     }
     
     func configureBackButton() {
@@ -64,7 +91,8 @@ class MovieViewController: UIViewController {
     // MARK: - Navigation
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        if let webVC = segue.destination as? WebViewController {
+        if segue.identifier == "showTicketPurchase" {
+            let webVC = segue.destination as! WebViewController
             webVC.ticketURLString = sender as? String
         }
     }

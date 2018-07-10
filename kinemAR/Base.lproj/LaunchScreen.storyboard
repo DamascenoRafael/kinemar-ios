@@ -18,25 +18,17 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="kinemarIcon" translatesAutoresizingMaskIntoConstraints="NO" id="BN3-rb-16q">
-                                <rect key="frame" x="112.5" y="223.5" width="150" height="150"/>
+                                <rect key="frame" x="112.5" y="243.5" width="150" height="150"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="BN3-rb-16q" secondAttribute="height" multiplier="1:1" id="70H-45-ZVg"/>
                                     <constraint firstAttribute="height" constant="150" id="yVR-Xh-v0h"/>
                                 </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cinema em AR" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pky-n0-a9I">
-                                <rect key="frame" x="117" y="388.5" width="141" height="27"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
-                                <color key="textColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="BN3-rb-16q" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="JRa-Ij-Dgh"/>
-                            <constraint firstItem="pky-n0-a9I" firstAttribute="top" secondItem="BN3-rb-16q" secondAttribute="bottom" constant="15" id="OuL-Pp-C0T"/>
-                            <constraint firstItem="pky-n0-a9I" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="hs7-CZ-05G"/>
-                            <constraint firstItem="BN3-rb-16q" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" constant="-45" id="ujG-Dz-I0o"/>
+                            <constraint firstItem="BN3-rb-16q" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" constant="-25" id="ujG-Dz-I0o"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>

@@ -1,16 +1,16 @@
 {
-  "images": [
+  "images" : [
     {
-      "idiom": "universal", 
-      "filename": "Al\u00e9m do Homem.jpg"
+      "idiom" : "universal",
+      "filename" : "Além do Homem.jpg"
     }
-  ], 
-  "info": {
-    "version": 1, 
-    "author": "xcode"
-  }, 
-  "properties": {
-    "width": 69, 
-    "unit": "centimeters"
+  ],
+  "info" : {
+    "version" : 1,
+    "author" : "xcode"
+  },
+  "properties" : {
+    "width" : 13.617021276595745,
+    "unit" : "centimeters"
   }
 }

@@ -1,16 +1,16 @@
 {
-  "images": [
+  "images" : [
     {
-      "idiom": "universal", 
-      "filename": "Talvez uma Hist\u00f3ria de Amor.jpg"
+      "idiom" : "universal",
+      "filename" : "Talvez uma História de Amor.jpg"
     }
-  ], 
-  "info": {
-    "version": 1, 
-    "author": "xcode"
-  }, 
-  "properties": {
-    "width": 69, 
-    "unit": "centimeters"
+  ],
+  "info" : {
+    "version" : 1,
+    "author" : "xcode"
+  },
+  "properties" : {
+    "width" : 13.617021276595745,
+    "unit" : "centimeters"
   }
 }

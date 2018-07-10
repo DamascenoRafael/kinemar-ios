@@ -1,248 +1,245 @@
 {
-  "info": {
-    "version": 1, 
-    "author": "xcode"
-  }, 
-  "resources": [
+  "info" : {
+    "version" : 1,
+    "author" : "xcode"
+  },
+  "resources" : [
     {
-      "filename": "O nome da morte.arreferenceimage"
-    }, 
+      "filename" : "50 são os novos 30.arreferenceimage"
+    },
     {
-      "filename": "Desobedi\u00eancia.arreferenceimage"
-    }, 
+      "filename" : "1945.arreferenceimage"
+    },
     {
-      "filename": "Al\u00e9m do Homem.arreferenceimage"
-    }, 
+      "filename" : "A Amante.arreferenceimage"
+    },
     {
-      "filename": "Arranha-C\u00e9u: Coragem sem Limite.arreferenceimage"
-    }, 
+      "filename" : "A Freira.arreferenceimage"
+    },
     {
-      "filename": "Bravas Donnas.arreferenceimage"
-    }, 
+      "filename" : "A palavra.arreferenceimage"
+    },
     {
-      "filename": "Nos vemos no para\u00edso.arreferenceimage"
-    }, 
+      "filename" : "A Primeira Noite de Crime.arreferenceimage"
+    },
     {
-      "filename": "Mentes Sombrias.arreferenceimage"
-    }, 
+      "filename" : "Além do Homem.arreferenceimage"
+    },
     {
-      "filename": "A Primeira Noite de Crime.arreferenceimage"
-    }, 
+      "filename" : "Alfa.arreferenceimage"
+    },
     {
-      "filename": "Christopher Robin \u2013 Um Reencontro Inesquec\u00edvel.arreferenceimage"
-    }, 
+      "filename" : "Alguma coisa assim.arreferenceimage"
+    },
     {
-      "filename": "O amante duplo.arreferenceimage"
-    }, 
+      "filename" : "Alma da Festa.arreferenceimage"
+    },
     {
-      "filename": "No intenso agora.arreferenceimage"
-    }, 
+      "filename" : "Animais Fantásticos: Os Crimes De Grindelwald.arreferenceimage"
+    },
     {
-      "filename": "Mogli: O Livro da Selva.arreferenceimage"
-    }, 
+      "filename" : "Anna Karenina - A história de Vronsky.arreferenceimage"
+    },
     {
-      "filename": "N\u00e3o se aceitam devolu\u00e7\u00f5es.arreferenceimage"
-    }, 
+      "filename" : "Arranha-Céu: Coragem sem Limite.arreferenceimage"
+    },
     {
-      "filename": "A Freira.arreferenceimage"
-    }, 
+      "filename" : "As boas maneiras.arreferenceimage"
+    },
     {
-      "filename": "Copa do Mundo da FIFA R\u00fassia 2018.arreferenceimage"
-    }, 
+      "filename" : "Auto de Resistência.arreferenceimage"
+    },
     {
-      "filename": "A palavra.arreferenceimage"
-    }, 
+      "filename" : "Baronesa.arreferenceimage"
+    },
     {
-      "filename": "Han Solo: Uma Hist\u00f3ria Star Wars.arreferenceimage"
-    }, 
+      "filename" : "Berenice procura.arreferenceimage"
+    },
     {
-      "filename": "Miss\u00e3o Imposs\u00edvel - Efeito Fallout.arreferenceimage"
-    }, 
+      "filename" : "Bravas Donnas.arreferenceimage"
+    },
     {
-      "filename": "As boas maneiras.arreferenceimage"
-    }, 
+      "filename" : "Cachorros.arreferenceimage"
+    },
     {
-      "filename": "Animais Fant\u00e1sticos: Os Crimes De Grindelwald.arreferenceimage"
-    }, 
+      "filename" : "Christopher Robin – Um Reencontro Inesquecível.arreferenceimage"
+    },
     {
-      "filename": "Cachorros.arreferenceimage"
-    }, 
+      "filename" : "Como é cruel viver assim.arreferenceimage"
+    },
     {
-      "filename": "Hotel Transilv\u00e2nia 3: F\u00e9rias Monstruosas.arreferenceimage"
-    }, 
+      "filename" : "Deadpool 2.arreferenceimage"
+    },
     {
-      "filename": "Sexy Por Acidente.arreferenceimage"
-    }, 
+      "filename" : "Dedo na ferida.arreferenceimage"
+    },
     {
-      "filename": "Homem-Formiga e a Vespa.arreferenceimage"
-    }, 
+      "filename" : "Desobediência.arreferenceimage"
+    },
     {
-      "filename": "Muse Drones World Tour.arreferenceimage"
-    }, 
+      "filename" : "Do jeito que elas querem.arreferenceimage"
+    },
     {
-      "filename": "Slender Man: Pesadelo Sem Rosto.arreferenceimage"
-    }, 
+      "filename" : "Dovlatov.arreferenceimage"
+    },
     {
-      "filename": "Em Guerra Por Amor.arreferenceimage"
-    }, 
+      "filename" : "Em Guerra Por Amor.arreferenceimage"
+    },
     {
-      "filename": "Os Jovens Tit\u00e3s em A\u00e7\u00e3o! Nos Cinemas.arreferenceimage"
-    }, 
+      "filename" : "Entre-Laços.arreferenceimage"
+    },
     {
-      "filename": "Tio Drew.arreferenceimage"
-    }, 
+      "filename" : "Estrada De Sonhos.arreferenceimage"
+    },
     {
-      "filename": "Gnomeu e Julieta - O mist\u00e9rio do jardim.arreferenceimage"
-    }, 
+      "filename" : "Garoto Cósmico.arreferenceimage"
+    },
     {
-      "filename": "Entre-La\u00e7os.arreferenceimage"
-    }, 
+      "filename" : "Gnomeu e Julieta - O mistério do jardim.arreferenceimage"
+    },
     {
-      "filename": "A Amante.arreferenceimage"
-    }, 
+      "filename" : "Han Solo: Uma História Star Wars.arreferenceimage"
+    },
     {
-      "filename": "Como \u00e9 cruel viver assim.arreferenceimage"
-    }, 
+      "filename" : "Hereditário.arreferenceimage"
+    },
     {
-      "filename": "Tungst\u00eanio.arreferenceimage"
-    }, 
+      "filename" : "Homem-aranha no Aranhaverso.arreferenceimage"
+    },
     {
-      "filename": "Sicario: dia do soldado.arreferenceimage"
-    }, 
+      "filename" : "Homem-Formiga e a Vespa.arreferenceimage"
+    },
     {
-      "filename": "Paulo, Ap\u00f3stolo de Cristo.arreferenceimage"
-    }, 
+      "filename" : "Hotel Transilvânia 3: Férias Monstruosas.arreferenceimage"
+    },
     {
-      "filename": "Oito Mulheres e Um Segredo.arreferenceimage"
-    }, 
+      "filename" : "Johnny English 3.0.arreferenceimage"
+    },
     {
-      "filename": "Trabalhar cansa.arreferenceimage"
-    }, 
+      "filename" : "Jurassic World: Reino Ameaçado.arreferenceimage"
+    },
     {
-      "filename": "Auto de Resist\u00eancia.arreferenceimage"
-    }, 
+      "filename" : "Legalize já!.arreferenceimage"
+    },
     {
-      "filename": "Alfa.arreferenceimage"
-    }, 
+      "filename" : "Mamma Mia: Lá Vamos Nós de Novo!.arreferenceimage"
+    },
     {
-      "filename": "Alguma coisa assim.arreferenceimage"
-    }, 
+      "filename" : "MegaTubarão.arreferenceimage"
+    },
     {
-      "filename": "1945.arreferenceimage"
-    }, 
+      "filename" : "Mentes Sombrias.arreferenceimage"
+    },
     {
-      "filename": "Baronesa.arreferenceimage"
-    }, 
+      "filename" : "Meu Ex é um Espião.arreferenceimage"
+    },
     {
-      "filename": "Dedo na ferida.arreferenceimage"
-    }, 
+      "filename" : "Missão Impossível - Efeito Fallout.arreferenceimage"
+    },
     {
-      "filename": "Legalize j\u00e1!.arreferenceimage"
-    }, 
+      "filename" : "Mogli: O Livro da Selva.arreferenceimage"
+    },
     {
-      "filename": "Venom.arreferenceimage"
-    }, 
+      "filename" : "Muse Drones World Tour.arreferenceimage"
+    },
     {
-      "filename": "Heredit\u00e1rio.arreferenceimage"
-    }, 
+      "filename" : "Não se aceitam devoluções.arreferenceimage"
+    },
     {
-      "filename": "Estrada De Sonhos.arreferenceimage"
-    }, 
+      "filename" : "No intenso agora.arreferenceimage"
+    },
     {
-      "filename": "Alma da Festa.arreferenceimage"
-    }, 
+      "filename" : "Nos vemos no paraíso.arreferenceimage"
+    },
     {
-      "filename": "Touki Bouki, A Viagem Da Hiena.arreferenceimage"
-    }, 
+      "filename" : "O amante duplo.arreferenceimage"
+    },
     {
-      "filename": "MegaTubar\u00e3o.arreferenceimage"
-    }, 
+      "filename" : "O Grande Circo Místico.arreferenceimage"
+    },
     {
-      "filename": "R\u00fassia 2018 - Brasil X M\u00e9xico.arreferenceimage"
-    }, 
+      "filename" : "O nome da morte.arreferenceimage"
+    },
     {
-      "filename": "Mamma Mia: L\u00e1 Vamos N\u00f3s de Novo!.arreferenceimage"
-    }, 
+      "filename" : "O processo.arreferenceimage"
+    },
     {
-      "filename": "Pra\u00e7a Paris.arreferenceimage"
-    }, 
+      "filename" : "O Quebra-Nozes e os Quatro Reinos.arreferenceimage"
+    },
     {
-      "filename": "50 s\u00e3o os novos 30.arreferenceimage"
-    }, 
+      "filename" : "O Retorno de Mary Poppins.arreferenceimage"
+    },
     {
-      "filename": "Oh Lucy!.arreferenceimage"
-    }, 
+      "filename" : "Oh Lucy!.arreferenceimage"
+    },
     {
-      "filename": "Meu Ex \u00e9 um Espi\u00e3o.arreferenceimage"
-    }, 
+      "filename" : "Oito Mulheres e Um Segredo.arreferenceimage"
+    },
     {
-      "filename": "Os Incr\u00edveis 2.arreferenceimage"
-    }, 
+      "filename" : "Os Incríveis 2.arreferenceimage"
+    },
     {
-      "filename": "O Grande Circo M\u00edstico.arreferenceimage"
-    }, 
+      "filename" : "Os Jovens Titãs em Ação! Nos Cinemas.arreferenceimage"
+    },
     {
-      "filename": "O Quebra-Nozes e os Quatro Reinos.arreferenceimage"
-    }, 
+      "filename" : "Os Novos Mutantes.arreferenceimage"
+    },
     {
-      "filename": "Rei.arreferenceimage"
-    }, 
+      "filename" : "Paraíso perdido.arreferenceimage"
+    },
     {
-      "filename": "Dovlatov.arreferenceimage"
-    }, 
+      "filename" : "Paulo, Apóstolo de Cristo.arreferenceimage"
+    },
     {
-      "filename": "Jurassic World: Reino Amea\u00e7ado.arreferenceimage"
-    }, 
+      "filename" : "Pé Pequeno.arreferenceimage"
+    },
     {
-      "filename": "Homem-aranha no Aranhaverso.arreferenceimage"
-    }, 
+      "filename" : "Podres de Ricos.arreferenceimage"
+    },
     {
-      "filename": "Do jeito que elas querem.arreferenceimage"
-    }, 
+      "filename" : "Praça Paris.arreferenceimage"
+    },
     {
-      "filename": "O Retorno de Mary Poppins.arreferenceimage"
-    }, 
+      "filename" : "Rei.arreferenceimage"
+    },
     {
-      "filename": "Johnny English 3.0.arreferenceimage"
-    }, 
+      "filename" : "Rússia 2018 - Brasil X México.arreferenceimage"
+    },
     {
-      "filename": "P\u00e9 Pequeno.arreferenceimage"
-    }, 
+      "filename" : "Severina.arreferenceimage"
+    },
     {
-      "filename": "Deadpool 2.arreferenceimage"
-    }, 
+      "filename" : "Sexy Por Acidente.arreferenceimage"
+    },
     {
-      "filename": "Podres de Ricos.arreferenceimage"
-    }, 
+      "filename" : "Sicario: dia do soldado.arreferenceimage"
+    },
     {
-      "filename": "Garoto C\u00f3smico.arreferenceimage"
-    }, 
+      "filename" : "Slender Man: Pesadelo Sem Rosto.arreferenceimage"
+    },
     {
-      "filename": "Anna Karenina - A hist\u00f3ria de Vronsky.arreferenceimage"
-    }, 
+      "filename" : "Talvez uma História de Amor.arreferenceimage"
+    },
     {
-      "filename": "Vingadores: Guerra Infinita.arreferenceimage"
-    }, 
+      "filename" : "Tio Drew.arreferenceimage"
+    },
     {
-      "filename": "Para\u00edso perdido.arreferenceimage"
-    }, 
+      "filename" : "Touki Bouki, A Viagem Da Hiena.arreferenceimage"
+    },
     {
-      "filename": "Os Novos Mutantes.arreferenceimage"
-    }, 
+      "filename" : "Trabalhar cansa.arreferenceimage"
+    },
     {
-      "filename": "Talvez uma Hist\u00f3ria de Amor.arreferenceimage"
-    }, 
+      "filename" : "Tungstênio.arreferenceimage"
+    },
     {
-      "filename": "Berenice procura.arreferenceimage"
-    }, 
+      "filename" : "Venom.arreferenceimage"
+    },
     {
-      "filename": "WiFi Ralph.arreferenceimage"
-    }, 
+      "filename" : "Vingadores: Guerra Infinita.arreferenceimage"
+    },
     {
-      "filename": "Severina.arreferenceimage"
-    }, 
-    {
-      "filename": "O processo.arreferenceimage"
+      "filename" : "WiFi Ralph.arreferenceimage"
     }
   ]
 }

@@ -1,16 +1,16 @@
 {
-  "images": [
+  "images" : [
     {
-      "idiom": "universal", 
-      "filename": "R\u00fassia 2018 - Brasil X M\u00e9xico.jpg"
+      "idiom" : "universal",
+      "filename" : "Rússia 2018 - Brasil X México.jpg"
     }
-  ], 
-  "info": {
-    "version": 1, 
-    "author": "xcode"
-  }, 
-  "properties": {
-    "width": 69, 
-    "unit": "centimeters"
+  ],
+  "info" : {
+    "version" : 1,
+    "author" : "xcode"
+  },
+  "properties" : {
+    "width" : 13.617021276595745,
+    "unit" : "centimeters"
   }
 }

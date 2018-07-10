@@ -1,16 +1,16 @@
 {
-  "images": [
+  "images" : [
     {
-      "idiom": "universal", 
-      "filename": "Os Jovens Tit\u00e3s em A\u00e7\u00e3o! Nos Cinemas.jpg"
+      "idiom" : "universal",
+      "filename" : "Os Jovens Titãs em Ação! Nos Cinemas.jpg"
     }
-  ], 
-  "info": {
-    "version": 1, 
-    "author": "xcode"
-  }, 
-  "properties": {
-    "width": 69, 
-    "unit": "centimeters"
+  ],
+  "info" : {
+    "version" : 1,
+    "author" : "xcode"
+  },
+  "properties" : {
+    "width" : 13.617021276595745,
+    "unit" : "centimeters"
   }
 }

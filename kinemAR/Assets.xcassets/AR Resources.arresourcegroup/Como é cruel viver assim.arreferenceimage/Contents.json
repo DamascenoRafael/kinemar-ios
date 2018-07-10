@@ -1,16 +1,16 @@
 {
-  "images": [
+  "images" : [
     {
-      "idiom": "universal", 
-      "filename": "Como \u00e9 cruel viver assim.jpg"
+      "idiom" : "universal",
+      "filename" : "Como é cruel viver assim.jpg"
     }
-  ], 
-  "info": {
-    "version": 1, 
-    "author": "xcode"
-  }, 
-  "properties": {
-    "width": 69, 
-    "unit": "centimeters"
+  ],
+  "info" : {
+    "version" : 1,
+    "author" : "xcode"
+  },
+  "properties" : {
+    "width" : 13.617021276595745,
+    "unit" : "centimeters"
   }
 }

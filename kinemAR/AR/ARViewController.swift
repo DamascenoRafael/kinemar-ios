@@ -35,7 +35,7 @@ class ARViewController: UIViewController, ARSCNViewDelegate {
         sceneView.session.delegate = self
         
         // Show statistics such as fps and timing information
-        sceneView.showsStatistics = true
+        // sceneView.showsStatistics = true
         
         // App tap gesture
         let tapGesture = UITapGestureRecognizer(target: self, action: #selector(handleTap(_:)))
@@ -171,6 +171,16 @@ class ARViewController: UIViewController, ARSCNViewDelegate {
                     textNode.switchPosition(to: .left, nodeReference: metacritic, plus: self.textGap)
                     node.addChildNode(textNode)
                 }
+                
+                // TODO: get movie theater of detection
+                
+                let historyItem = HistoryItem()
+                historyItem.movieID = movie.id
+                historyItem.movie = movie
+                historyItem.date = Date()
+                historyItem.place = "Cinema da Cidade Universitária"
+                
+                HistoryService.instance.insertItem(historyItem)
             })
         }
         
@@ -207,6 +217,9 @@ class ARViewController: UIViewController, ARSCNViewDelegate {
         
         return textNode
     }
+    
+    // TODO: better load from items
+    // TODO: scale items inside .dae files
     
     lazy var infoNode: SCNNode = {
         guard let scene = SCNScene(named: "art.scnassets/info/info.scn"),

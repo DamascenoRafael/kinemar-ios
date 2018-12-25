@@ -13,7 +13,7 @@ class Rating: Object, Decodable {
 }
 
 class Movie: Object, Decodable {
-    @objc dynamic var movieID: String?
+    @objc dynamic var id: String?
     @objc dynamic var ingressoID: String?
     @objc dynamic var title: String?
     @objc dynamic var originalTitle: String?
@@ -37,11 +37,11 @@ class Movie: Object, Decodable {
     var isPlaying: Bool?
     
     override static func primaryKey() -> String? {
-        return "movieID"
+        return "id"
     }
     
     private enum MovieCodingKeys: String, CodingKey {
-        case movieID
+        case id
         case ingressoID
         case title
         case originalTitle
@@ -69,7 +69,7 @@ class Movie: Object, Decodable {
         self.init()
         let container       = try decoder.container(keyedBy: MovieCodingKeys.self)
         title               = try container.decode(String.self, forKey: .title)
-        movieID             = String(title!.hashValue)
+        id                  = String(title!.hashValue)
         ingressoID          = try container.decode(String.self, forKey: .ingressoID)
         originalTitle       = try container.decode(String.self, forKey: .originalTitle)
         movieOutline        = try container.decode(String.self, forKey: .movieOutline)

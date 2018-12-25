@@ -12,8 +12,18 @@ class MovieCell: UITableViewCell {
         super.awakeFromNib()
         // Initialization code
     }
-
-    func configureCell(withMovie: Movie, place: String) {
-        
+    
+    func configureCell(withMovie movie: Movie, place: String, date: String) {
+        posterImageView.image       = UIImage(named: movie.title!)
+        titleLabel.text             = movie.title ?? "--"
+        infoLabel.text              = String(format: "%@  |  %@  |  ", movie.premiereYear ?? "--", movie.runtime ?? "--")
+        dateLabel.text              = date
+        if let contentRating = movie.contentRating {
+            if contentRating.contains("Consulte") {
+                infoLabel.text = infoLabel.text! + contentRating
+            } else {
+                infoLabel.text = infoLabel.text! + "Classificação: " + contentRating
+            }
+        }
     }
 }

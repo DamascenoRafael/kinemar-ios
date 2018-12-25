@@ -15,9 +15,9 @@ This repository refers to the final project of the course: **Software Engineerin
 
 The purpose of this repository is to demonstrate the use of augmented reality using as the main element the movie posters displayed in theaters. The goal is to recognize movie posters and present relevant information such as the movie trailer, where to buy tickets, synopsis, director, actors and ratings from different sources like: [IMDb](https://www.imdb.com/), [Metacritic](http://www.metacritic.com/) and [RottenTomatoes](https://www.rottentomatoes.com/). The application developed for iOS uses the [ARKit 2.0](https://developer.apple.com/arkit/) Framework and seeks to create a unique experience using the techniques and structures developed during the course.
 
-This application makes use of a data scraper, developed for this project, which captures the information and posters of the available "now playing" and "comming soon" movies. This data scraper is available at: **[rodrigoj42/kinemar-scrapping](https://github.com/rodrigoj42/kinemar-scrapping)**.
+This application makes use of a data scraper, developed for this project, which captures the information and posters of the available "now playing" and "comming soon" movies. This data scraper is available at: **[rodrigoj42/kinemar-scrapper](https://github.com/rodrigoj42/kinemar-scrapper)**.
 
-## Installation
+## Usage
 
 
 **Requirements**
